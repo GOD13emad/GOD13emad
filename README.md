@@ -24,13 +24,13 @@ A cross-platform **Windows/Linux MCP server** that lets authorized owners intera
 
 [Installation and current capabilities](https://github.com/GOD13emad/ChatGPTRemoteCommander/blob/main/START_HERE.md) · [Share a real use case or feedback](https://github.com/GOD13emad/ChatGPTRemoteCommander/issues/154)
 
-### [Remote Commander Browser](https://github.com/Usefull-Skills/chatgpt-cef-linux)
+### [Remote Commander Browser](https://github.com/Usefull-Skills/remote-commander-browser)
 
 A **separate, unofficial CEF-based desktop browser shell** for ChatGPT-oriented workflows, with native tabs, Persian/Arabic RTL support, and carefully scoped permissions. The current repository documents **candidate-stage software**, not a universally qualified stable product. It is **not** the Remote Commander MCP server.
 
 **For:** Linux desktop users, CEF developers, UI/UX testers, and people evaluating dedicated multilingual ChatGPT browser interfaces.
 
-[Current build and status](https://github.com/Usefull-Skills/chatgpt-cef-linux#readme) · [Share focused browser feedback](https://github.com/Usefull-Skills/chatgpt-cef-linux/issues/78)
+[Current build and status](https://github.com/Usefull-Skills/remote-commander-browser#readme) · [Share focused browser feedback](https://github.com/Usefull-Skills/remote-commander-browser/issues/78)
 
 > **Independent work:** Neither project is an official OpenAI application, nor is it affiliated with or endorsed by OpenAI. University roles and research activity should not be interpreted as institutional endorsement of these software projects.
 
@@ -39,7 +39,7 @@ A **separate, unofficial CEF-based desktop browser shell** for ChatGPT-oriented 
 | Your interest | Best starting point |
 | --- | --- |
 | Controlling an authorized Windows/Linux machine or technical workflow from ChatGPT | [Remote Commander](https://github.com/GOD13emad/ChatGPTRemoteCommander/issues/154) |
-| Desktop browser shell, CEF, tabs, RTL, clipboard, or UI testing | [Remote Commander Browser](https://github.com/Usefull-Skills/chatgpt-cef-linux/issues/78) |
+| Desktop browser shell, CEF, tabs, RTL, clipboard, or UI testing | [Remote Commander Browser](https://github.com/Usefull-Skills/remote-commander-browser/issues/78) |
 | Mechanical engineering, dynamics/vibrations, sensors, and R&D collaboration | [LinkedIn](https://ir.linkedin.com/in/aliakbar-emadoddin-3bb8b5b8) |
 
 ## درباره من
