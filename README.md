@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/profile-header.svg" width="100%" alt="Engineering and research: dynamics, vibration, control and software tools"></p>
+
 # Aliakbar Emadoddin
 
 **Mechanical Engineering PhD researcher** · Dynamics, Vibration & Control · Engineering R&D · Independent Software Development
