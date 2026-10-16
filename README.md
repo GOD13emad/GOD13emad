@@ -16,7 +16,7 @@ For research and professional collaboration, please use [my LinkedIn profile](ht
 
 I also contribute to **[TandemVector Labs](https://github.com/Usefull-Skills)**, a jointly stewarded engineering and software R&D collective. Individual project provenance, licensing, and release authority remain with their respective repositories.
 
-<p align="center"><a href="https://github.com/Usefull-Skills"><img src="https://raw.githubusercontent.com/Usefull-Skills/.github/design/tandemvector-profile-banner/profile/assets/tandemvector-banner.svg" width="85%" alt="TandemVector Labs — shared engineering portfolio"></a></p>
+<p align="center"><a href="https://github.com/Usefull-Skills"><img src="https://raw.githubusercontent.com/Usefull-Skills/.github/main/profile/assets/tandemvector-banner.svg" width="85%" alt="TandemVector Labs — shared engineering portfolio"></a></p>
 
 ## Independent developer projects
 
