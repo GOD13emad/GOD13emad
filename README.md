@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/profile-header.svg" width="100%" alt="Engineering and research: dynamics, vibration, control and software tools"></p>
+
 # Aliakbar Emadoddin
 
 **Mechanical Engineering PhD researcher** · Dynamics, Vibration & Control · Engineering R&D · Independent Software Development
@@ -11,6 +13,10 @@ I pursue doctoral research in **mechanical engineering**, with an emphasis on **
 **Relevant collaboration:** applied mechanics, vibrations, sensor systems, engineering simulation, research-to-product development, and technical workflow design.
 
 For research and professional collaboration, please use [my LinkedIn profile](https://ir.linkedin.com/in/aliakbar-emadoddin-3bb8b5b8).
+
+## Shared engineering portfolio
+
+I also contribute to **[TandemVector Labs](https://github.com/Usefull-Skills)**, a jointly stewarded engineering and software R&D collective. Individual project provenance, licensing, and release authority remain with their respective repositories.
 
 ## Independent developer projects
 
