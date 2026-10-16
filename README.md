@@ -12,6 +12,12 @@ I pursue doctoral research in **mechanical engineering**, with an emphasis on **
 
 For research and professional collaboration, please use [my LinkedIn profile](https://ir.linkedin.com/in/aliakbar-emadoddin-3bb8b5b8).
 
+## Shared engineering portfolio
+
+I also contribute to **[TandemVector Labs](https://github.com/Usefull-Skills)**, a jointly stewarded engineering and software R&D collective. Individual project provenance, licensing, and release authority remain with their respective repositories.
+
+<p align="center"><a href="https://github.com/Usefull-Skills"><img src="https://raw.githubusercontent.com/Usefull-Skills/.github/design/tandemvector-profile-banner/profile/assets/tandemvector-banner.svg" width="85%" alt="TandemVector Labs — shared engineering portfolio"></a></p>
+
 ## Independent developer projects
 
 These are **two different projects**, with different purposes and release maturity.
