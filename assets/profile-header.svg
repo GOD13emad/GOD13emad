@@ -7,10 +7,10 @@
 </defs>
 <rect width="1280" height="330" rx="24" fill="url(#bg)"/>
 <g fill="none" stroke="url(#signal)" stroke-width="2.5" stroke-linecap="round" opacity=".58">
-<path d="M785 170 C810 170 807 65 835 65 S860 265 885 265 S911 103 938 103 S964 231 990 231 S1017 129 1043 129 S1068 206 1094 206 S1118 150 1146 150 S1170 187 1197 187"/>
-<path d="M768 170H1228" stroke="#4f92d2" opacity=".25" stroke-dasharray="7 9"/>
+<path d="M959 170 C974 170 973 100 991 100 S1011 244 1030 244 S1048 123 1066 123 S1082 220 1100 220 S1116 143 1132 143 S1148 201 1164 201 S1182 153 1196 153 S1211 181 1227 181"/>
+<path d="M948 170H1232" stroke="#4f92d2" opacity=".25" stroke-dasharray="7 9"/>
 </g>
-<g stroke="#5588cc" stroke-opacity=".12" stroke-width="1"><path d="M768 80H1228M768 125H1228M768 215H1228M768 260H1228"/><path d="M820 40V291M920 40V291M1020 40V291M1120 40V291"/></g>
+<g stroke="#5588cc" stroke-opacity=".12" stroke-width="1"><path d="M950 80H1228M950 125H1228M950 215H1228M950 260H1228"/><path d="M980 40V291M1040 40V291M1100 40V291M1160 40V291"/></g>
 <g transform="translate(62 62)">
 <rect width="148" height="148" rx="36" fill="#162c4b" stroke="#4eaccb" stroke-opacity=".5" stroke-width="2"/>
 <path d="M28 100L56 43L85 100M41 77H72" stroke="#55dacc" stroke-width="11" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
