@@ -18,7 +18,7 @@ I pursue doctoral research in **mechanical engineering**, with an emphasis on **
 
 **Relevant collaboration:** applied mechanics, vibrations, sensor systems, engineering simulation, research-to-product development, and technical workflow design.
 
-For research and professional collaboration, please use [my LinkedIn profile](https://ir.linkedin.com/in/aliakbar-emadoddin-3bb8b5b8).
+For research and professional collaboration, please use [my LinkedIn profile](https://www.linkedin.com/in/aliakbar-emadoddin-3bb8b5b8/).
 
 ## Shared engineering portfolio
 
@@ -54,7 +54,7 @@ A **separate, unofficial CEF-based desktop browser shell** for ChatGPT-oriented 
 | --- | --- |
 | Controlling an authorized Windows/Linux machine or technical workflow from ChatGPT | [Remote Commander](https://github.com/GOD13emad/ChatGPTRemoteCommander/issues/154) |
 | Desktop browser shell, CEF, tabs, RTL, clipboard, or UI testing | [Remote Commander Browser](https://github.com/Usefull-Skills/remote-commander-browser/issues/78) |
-| Mechanical engineering, dynamics/vibrations, sensors, and R&D collaboration | [LinkedIn](https://ir.linkedin.com/in/aliakbar-emadoddin-3bb8b5b8) |
+| Mechanical engineering, dynamics/vibrations, sensors, and R&D collaboration | [LinkedIn](https://www.linkedin.com/in/aliakbar-emadoddin-3bb8b5b8/) |
 
 ## درباره من
 
@@ -62,6 +62,6 @@ A **separate, unofficial CEF-based desktop browser shell** for ChatGPT-oriented 
 
 - **Remote Commander:** ارتباط کنترل‌شده ChatGPT با رایانه و پروژه‌های فنی از طریق MCP.
 - **Remote Commander Browser:** پوسته مرورگر مستقل مبتنی بر CEF، با پشتیبانی فارسی/RTL، در مرحله توسعه و آزمایش.
-- **همکاری پژوهشی:** [پروفایل حرفه‌ای LinkedIn](https://ir.linkedin.com/in/aliakbar-emadoddin-3bb8b5b8).
+- **همکاری پژوهشی:** [پروفایل حرفه‌ای LinkedIn](https://www.linkedin.com/in/aliakbar-emadoddin-3bb8b5b8/).
 
 برای هر موضوع، لطفاً از مسیر مرتبط با همان موضوع استفاده کنید.
