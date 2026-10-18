@@ -1,5 +1,11 @@
 <p align="center"><img src="assets/profile-header.svg" width="100%" alt="Engineering and research: dynamics, vibration, control and software tools"></p>
 
+<p align="center">
+  <a href="https://github.com/Usefull-Skills">TandemVector Labs</a> &nbsp;·&nbsp;
+  <a href="https://github.com/mohammadmohammadzadeh19960-code">Co-steward: MMZ</a> &nbsp;·&nbsp;
+  <a href="https://github.com/Usefull-Skills/.github/blob/main/PROJECT_CATALOG.md">Project directory</a>
+</p>
+
 # Aliakbar Emadoddin
 
 **Mechanical Engineering PhD researcher** · Dynamics, Vibration & Control · Engineering R&D · Independent Software Development
@@ -17,6 +23,8 @@ For research and professional collaboration, please use [my LinkedIn profile](ht
 ## Shared engineering portfolio
 
 I also contribute to **[TandemVector Labs](https://github.com/Usefull-Skills)**, a jointly stewarded engineering and software R&D collective. Individual project provenance, licensing, and release authority remain with their respective repositories.
+
+**Joint GitHub stewardship:** [GOD13emad](https://github.com/GOD13emad) and [MMZ](https://github.com/mohammadmohammadzadeh19960-code) share management of the organization. This does not change authorship, ownership, or the official release location of any personal upstream.
 
 ## Independent developer projects
 
