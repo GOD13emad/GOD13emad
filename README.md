@@ -28,7 +28,7 @@ I also contribute to **[TandemVector Labs](https://github.com/Usefull-Skills)**,
 
 ## Independent developer projects
 
-These are **two different projects**, with different purposes and release maturity.
+These projects serve different purposes and have distinct release maturity.
 
 ### [ChatGPT Remote Commander](https://github.com/GOD13emad/ChatGPTRemoteCommander)
 
@@ -46,7 +46,15 @@ A **separate, unofficial CEF-based desktop browser shell** for ChatGPT-oriented 
 
 [Current build and status](https://github.com/Usefull-Skills/remote-commander-browser#readme) · [Share focused browser feedback](https://github.com/Usefull-Skills/remote-commander-browser/issues/78)
 
-> **Independent work:** Neither project is an official OpenAI application, nor is it affiliated with or endorsed by OpenAI. University roles and research activity should not be interpreted as institutional endorsement of these software projects.
+### [Appearance Studio Core](https://github.com/Usefull-Skills/AppearanceStudio-Core)
+
+**Appearance Studio** is a Linux/GNOME desktop appearance center with verified Theme Packs, bounded settings changes and transactional rollback. Its project README identifies individual authorship and the **Arclenor Technologies** product brand; organization hosting does not imply joint authorship.
+
+**Current status:** `v0.9.0` **release candidate**, with GNOME 50 live validation still required before stable acceptance. A Windows version is planned, **not shipped**.
+
+[Source, requirements and current limitations](https://github.com/Usefull-Skills/AppearanceStudio-Core#readme) · [Release history](https://github.com/Usefull-Skills/AppearanceStudio-Core/releases)
+
+> **Independent work:** Neither ChatGPT Remote Commander nor Remote Commander Browser is an official OpenAI application or endorsed by OpenAI. Appearance Studio follows its own platform and release policy. University roles and research activity do not imply institutional endorsement of these software projects.
 
 ## Choose the right conversation
 
@@ -54,6 +62,7 @@ A **separate, unofficial CEF-based desktop browser shell** for ChatGPT-oriented 
 | --- | --- |
 | Controlling an authorized Windows/Linux machine or technical workflow from ChatGPT | [Remote Commander](https://github.com/GOD13emad/ChatGPTRemoteCommander/issues/154) |
 | Desktop browser shell, CEF, tabs, RTL, clipboard, or UI testing | [Remote Commander Browser](https://github.com/Usefull-Skills/remote-commander-browser/issues/78) |
+| GNOME desktop appearance, Theme Packs and reversible Linux customization | [Appearance Studio Core](https://github.com/Usefull-Skills/AppearanceStudio-Core) |
 | Mechanical engineering, dynamics/vibrations, sensors, and R&D collaboration | [LinkedIn](https://www.linkedin.com/in/aliakbar-emadoddin-3bb8b5b8/) |
 
 ## درباره من
@@ -62,6 +71,7 @@ A **separate, unofficial CEF-based desktop browser shell** for ChatGPT-oriented 
 
 - **Remote Commander:** ارتباط کنترل‌شده ChatGPT با رایانه و پروژه‌های فنی از طریق MCP.
 - **Remote Commander Browser:** پوسته مرورگر مستقل مبتنی بر CEF، با پشتیبانی فارسی/RTL، در مرحله توسعه و آزمایش.
+- **Appearance Studio Core:** نرم‌افزار مستقل تنظیم ظاهر GNOME؛ نسخهٔ Linux 0.9.0 در مرحلهٔ Release Candidate است و نسخهٔ Windows هنوز منتشر نشده است.
 - **همکاری پژوهشی:** [پروفایل حرفه‌ای LinkedIn](https://www.linkedin.com/in/aliakbar-emadoddin-3bb8b5b8/).
 
 برای هر موضوع، لطفاً از مسیر مرتبط با همان موضوع استفاده کنید.
