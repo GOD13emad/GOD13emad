@@ -1,9 +1,9 @@
 <p align="center"><img src="assets/profile-header.svg" width="100%" alt="Engineering and research: dynamics, vibration, control and software tools"></p>
 
 <p align="center">
-  <a href="https://github.com/Usefull-Skills">TandemVector Labs</a> &nbsp;·&nbsp;
+  <a href="https://github.com/TandemVector-Labs">TandemVector Labs</a> &nbsp;·&nbsp;
   <a href="https://github.com/mohammadmohammadzadeh19960-code">Co-steward: MMZ</a> &nbsp;·&nbsp;
-  <a href="https://github.com/Usefull-Skills/.github/blob/main/PROJECT_CATALOG.md">Project directory</a>
+  <a href="https://github.com/TandemVector-Labs/.github/blob/main/PROJECT_CATALOG.md">Project directory</a>
 </p>
 
 # Aliakbar Emadoddin
@@ -22,7 +22,7 @@ For research and professional collaboration, please use [my LinkedIn profile](ht
 
 ## Shared engineering portfolio
 
-I also contribute to **[TandemVector Labs](https://github.com/Usefull-Skills)**, a jointly stewarded engineering and software R&D collective. Individual project provenance, licensing, and release authority remain with their respective repositories.
+I also contribute to **[TandemVector Labs](https://github.com/TandemVector-Labs)**, a jointly stewarded engineering and software R&D collective. Individual project provenance, licensing, and release authority remain with their respective repositories.
 
 **Joint GitHub stewardship:** [GOD13emad](https://github.com/GOD13emad) and [MMZ](https://github.com/mohammadmohammadzadeh19960-code) share management of the organization. This does not change authorship, ownership, or the official release location of any personal upstream.
 
@@ -38,21 +38,21 @@ A cross-platform **Windows/Linux MCP server** that lets authorized owners intera
 
 [Installation and current capabilities](https://github.com/GOD13emad/ChatGPTRemoteCommander/blob/main/START_HERE.md) · [Share a real use case or feedback](https://github.com/GOD13emad/ChatGPTRemoteCommander/issues/154)
 
-### [Remote Commander Browser](https://github.com/Usefull-Skills/remote-commander-browser)
+### [Remote Commander Browser](https://github.com/TandemVector-Labs/remote-commander-browser)
 
 A **separate, unofficial CEF-based desktop browser shell** for ChatGPT-oriented workflows, with native tabs, Persian/Arabic RTL support, and carefully scoped permissions. The current repository documents **candidate-stage software**, not a universally qualified stable product. It is **not** the Remote Commander MCP server.
 
 **For:** Linux desktop users, CEF developers, UI/UX testers, and people evaluating dedicated multilingual ChatGPT browser interfaces.
 
-[Current build and status](https://github.com/Usefull-Skills/remote-commander-browser#readme) · [Share focused browser feedback](https://github.com/Usefull-Skills/remote-commander-browser/issues/78)
+[Current build and status](https://github.com/TandemVector-Labs/remote-commander-browser#readme) · [Share focused browser feedback](https://github.com/TandemVector-Labs/remote-commander-browser/issues/78)
 
-### [Appearance Studio Core](https://github.com/Usefull-Skills/AppearanceStudio-Core)
+### [Appearance Studio Core](https://github.com/TandemVector-Labs/AppearanceStudio-Core)
 
 **Appearance Studio** is a Linux/GNOME desktop appearance center with verified Theme Packs, bounded settings changes and transactional rollback. Its project README identifies individual authorship and the **Arclenor Technologies** product brand; organization hosting does not imply joint authorship.
 
 **Current status:** `v0.9.0` **release candidate**, with GNOME 50 live validation still required before stable acceptance. A Windows version is planned, **not shipped**.
 
-[Source, requirements and current limitations](https://github.com/Usefull-Skills/AppearanceStudio-Core#readme) · [Release history](https://github.com/Usefull-Skills/AppearanceStudio-Core/releases)
+[Source, requirements and current limitations](https://github.com/TandemVector-Labs/AppearanceStudio-Core#readme) · [Release history](https://github.com/TandemVector-Labs/AppearanceStudio-Core/releases)
 
 > **Independent work:** Neither ChatGPT Remote Commander nor Remote Commander Browser is an official OpenAI application or endorsed by OpenAI. Appearance Studio follows its own platform and release policy. University roles and research activity do not imply institutional endorsement of these software projects.
 
@@ -61,8 +61,8 @@ A **separate, unofficial CEF-based desktop browser shell** for ChatGPT-oriented 
 | Your interest | Best starting point |
 | --- | --- |
 | Controlling an authorized Windows/Linux machine or technical workflow from ChatGPT | [Remote Commander](https://github.com/GOD13emad/ChatGPTRemoteCommander/issues/154) |
-| Desktop browser shell, CEF, tabs, RTL, clipboard, or UI testing | [Remote Commander Browser](https://github.com/Usefull-Skills/remote-commander-browser/issues/78) |
-| GNOME desktop appearance, Theme Packs and reversible Linux customization | [Appearance Studio Core](https://github.com/Usefull-Skills/AppearanceStudio-Core) |
+| Desktop browser shell, CEF, tabs, RTL, clipboard, or UI testing | [Remote Commander Browser](https://github.com/TandemVector-Labs/remote-commander-browser/issues/78) |
+| GNOME desktop appearance, Theme Packs and reversible Linux customization | [Appearance Studio Core](https://github.com/TandemVector-Labs/AppearanceStudio-Core) |
 | Mechanical engineering, dynamics/vibrations, sensors, and R&D collaboration | [LinkedIn](https://www.linkedin.com/in/aliakbar-emadoddin-3bb8b5b8/) |
 
 ## درباره من
