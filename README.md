@@ -14,6 +14,15 @@ My work connects scientific modeling, practical engineering, and tools that help
 
 **[Evidence matrix / جدول اعتبارسنجی ۲۶ مدخل](portfolio/EVIDENCE_MATRIX.md)** — وضعیت انتشار، آزمایش، مستندات خصوصی و محدودیت مالکیت هر مدخل.
 
+## Start here
+
+| Research & engineering | Developer systems | Professional collaboration |
+| :--- | :--- | :--- |
+| [**Engineering case studies**](portfolio/engineering-case-studies/README.md)<br>Dynamics, vibration, product R&D and simulation | [**ChatGPT Remote Commander**](https://github.com/GOD13emad/ChatGPTRemoteCommander)<br>Permission-aware MCP for Windows/Linux; check the published release status | [**Engineering services**](ENGINEERING_SERVICES.md)<br>Technical scope, inputs, deliverables and acceptance |
+| [**Reproducible computations**](portfolio/advanced-demos/README.md)<br>FDD, LQR, TMD and MATLAB/Python examples | [**Software portfolio**](portfolio/software-systems/README.md)<br>Desktop tooling, CEF/RTL and independent software | [**Research evidence**](portfolio/EVIDENCE_MATRIX.md)<br>Public evidence, maturity, ownership and limitations |
+
+*For a complete history, use the detailed portfolio and evidence links below; demos, release candidates and deployed products are not interchangeable.*
+
 ## Full engineering & software portfolio
 
 **[Full engineering & software portfolio](PORTFOLIO.md)** — **26 numbered engineering/software/research tracks, plus a separately documented collaborative automotive data-publication program with two DOI releases** covering advanced mechanical design, 2D/3D electromagnetic and CAD work, 9-channel operational modal analysis, native CAD automation, cross-platform software products and tested MATLAB/Python algorithms.
