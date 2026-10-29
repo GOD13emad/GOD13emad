@@ -14,13 +14,17 @@ My work connects scientific modeling, practical engineering, and tools that help
 
 ## Full engineering & software portfolio
 
-**[Full engineering & software portfolio](PORTFOLIO.md)** — **26 evidence-labeled project/prototype tracks** covering advanced mechanical design, 2D/3D electromagnetic and CAD work, 9-channel operational modal analysis, native CAD automation, cross-platform software products and tested MATLAB/Python algorithms.
+**[Full engineering & software portfolio](PORTFOLIO.md)** — **27 evidence-labeled engineering/research workstreams** covering advanced mechanical design, 2D/3D electromagnetic and CAD work, 9-channel operational modal analysis, native CAD automation, cross-platform software products and tested MATLAB/Python algorithms.
 
 **[Engineering & research](portfolio/engineering-case-studies/README.md)** · **[Released software & systems](portfolio/software-systems/README.md)** · **[Tested FDD, LQR and TMD demos](portfolio/advanced-demos/README.md)** · **[MATLAB truss example](portfolio/matlab-three-bar-truss/README.md)**.
 
 **[رزومهٔ فارسی آمادهٔ کارلنسر و پارس‌کدرز](FREELANCE_PROFILE_FA.md)** — متن کامل، معرفی کوتاه، عنوان تخصصی و کلیدواژه‌های خدمت.
 
 **پورتفولیوی فنی:** نمونه‌کارهای واقعی و مستند مهندسی مکانیک، شبیه‌سازی، اتوماسیون CAD و نرم‌افزارهای منتشرشده، به‌همراه نمونه‌های محاسباتی مستقلِ آزمایش‌شده؛ وضعیت تحقیق، انتشار و پذیرش در هر بخش به‌صورت شفاف مشخص شده است.
+
+## Verified public scholarly data releases
+
+Two collaborative, CC BY 4.0 automotive driving datasets deposited in Mendeley Data list **Aliakbar Emadoddin** as a named contributor: [Runna dataset DOI](https://doi.org/10.17632/csncnv8wnd.2) and [Tiba dataset DOI](https://doi.org/10.17632/xw4shs8hyy.3). These are **datasets, not journal articles**. [Publisher evidence and proper attribution](portfolio/peer-reviewed-and-open-research/README.md).
 
 ## Industrial engineering and innovation leadership
 
