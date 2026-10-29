@@ -12,6 +12,8 @@
 
 My work connects scientific modeling, practical engineering, and tools that help researchers and developers manage complex technical projects. I am interested in vibration analysis, mechanical product development, sensor-related research, reproducible workflows, and responsible uses of AI in engineering.
 
+**[Evidence matrix / جدول اعتبارسنجی ۲۶ مدخل](portfolio/EVIDENCE_MATRIX.md)** — وضعیت انتشار، آزمایش، مستندات خصوصی و محدودیت مالکیت هر مدخل.
+
 ## Full engineering & software portfolio
 
 **[Full engineering & software portfolio](PORTFOLIO.md)** — **26 numbered engineering/software/research tracks, plus a separately documented collaborative automotive data-publication program with two DOI releases** covering advanced mechanical design, 2D/3D electromagnetic and CAD work, 9-channel operational modal analysis, native CAD automation, cross-platform software products and tested MATLAB/Python algorithms.
