@@ -1,12 +1,16 @@
 #!/usr/bin/env python3
-"""Generate a reproducible Excel pilot from 12 FICTIONAL rows; NOT a client deliverable.
+"""Fictional CSV/SQL-to-Excel ONE-report pilot. No customer data or SQL connection.
 
-Requires an environment with artifact_tool (the same workbook engine used for this
-verified demonstration). No SQL, network, customer data, or credentials are accessed.
+Requires openpyxl (pip install openpyxl). Formulas calculate when opened in Excel
+or a compatible recalculation engine; independent Python checks run immediately.
 """
-from pathlib import Path
+from __future__ import annotations
 import argparse
-from artifact_tool import Workbook, SpreadsheetFile
+from collections import defaultdict
+from pathlib import Path
+from openpyxl import Workbook, load_workbook
+from openpyxl.styles import Font, PatternFill, Alignment
+from openpyxl.workbook.properties import CalcProperties
 
 ROWS = [
     ("2026-10-01", "Parts", "SYN-001", 2, 480000),
@@ -22,81 +26,122 @@ ROWS = [
     ("2026-10-18", "Services", "SYN-011", 1, 1250000),
     ("2026-10-21", "Tools", "SYN-012", 2, 145000),
 ]
-EXPECTED_TOMAN = sum(qty * price for _, _, _, qty, price in ROWS)
-assert len(ROWS) == len({row[2] for row in ROWS}) == 12
-assert EXPECTED_TOMAN == 8092000
+EXPECTED_TOMAN = 8092000
+EXPECTED_UNITS = 27
 
-def create_workbook(output: Path) -> None:
-    wb = Workbook.create()
-    info = wb.worksheets.add("Scope_And_Readme")
-    source = wb.worksheets.add("Synthetic_Inputs")
-    report = wb.worksheets.add("One_Report_Pilot")
-    dark = {"fill": "#17456C", "font": {"bold": True, "color": "#FFFFFF"}}
-    for sh in (info, source, report):
-        sh.get_range("A1:G1").format = dark
-        sh.freeze_panes.freeze_rows(3)
-    info.get_range("A1").values = [["Synthetic SQL-to-Excel reporting pilot - NOT client data"]]
-    info.get_range("A3:B9").values = [
-        ["Field", "Evidence or gate"],
-        ["Input", "12 fictional transaction records only"],
-        ["Output", "One by-category Excel report, formula-based"],
-        ["No access", "No SARB/SQL Server, credentials or private schema"],
-        ["Test", "Gross sums, record counts and unique references"],
-        ["Not implemented", "Scheduler, four client reports or deployment"],
-        ["Commercial prerequisite", "Approved inputs, escrow and written acceptance"],
-    ]
-    info.get_range("A3:B3").format = dark
-    info.get_range("A3:A9").format.column_width = 26
-    info.get_range("B3:B9").format.column_width = 67
-    info.get_range("B3:B9").format.wrap_text = True
-    info.get_range("A3:B9").format.row_height = 26
-    source.get_range("A1").values = [["Only SYNTHETIC rows - no real financial information"]]
-    source.get_range("A3:G3").values = [[
-        "Date", "Category", "Reference", "Quantity", "Unit price (toman)", "Gross", "State",
-    ]]
-    source.get_range("A3:G3").format = dark
-    for index, (date, category, ref, qty, price) in enumerate(ROWS, 4):
-        source.get_range(f"A{index}:E{index}").values = [[date, category, ref, qty, price]]
-        source.get_range(f"F{index}").formulas = [[f"=D{index}*E{index}"]]
-        source.get_range(f"G{index}").values = [["Posted"]]
-    source.get_range("A17").values = [["Synthetic gross total"]]
-    source.get_range("F17").formulas = [["=SUM(F4:F15)"]]
-    source.get_range("A3:A17").format.column_width = 19
-    source.get_range("B3:C17").format.column_width = 19
-    source.get_range("D3:D17").format.column_width = 13
-    source.get_range("E3:F17").format.column_width = 24
-    source.get_range("E4:F17").set_number_format("#,##0")
-    report.get_range("A1").values = [["One-report paid-pilot demonstration - FICTIONAL"]]
-    report.get_range("A3:D3").values = [[
-        "Category", "Records", "Units", "Gross sales (toman)",
-    ]]
-    report.get_range("A3:D3").format = dark
-    for index, cat in enumerate(("Parts", "Services", "Tools"), 4):
-        report.get_range(f"A{index}").values = [[cat]]
-        report.get_range(f"B{index}").formulas = [[f"=COUNTIF(Synthetic_Inputs!$B$4:$B$15,A{index})"]]
-        report.get_range(f"C{index}").formulas = [[f"=SUMIF(Synthetic_Inputs!$B$4:$B$15,A{index},Synthetic_Inputs!$D$4:$D$15)"]]
-        report.get_range(f"D{index}").formulas = [[f"=SUMIF(Synthetic_Inputs!$B$4:$B$15,A{index},Synthetic_Inputs!$F$4:$F$15)"]]
-    report.get_range("A8").values = [["All categories"]]
-    report.get_range("B8:D8").formulas = [["=SUM(B4:B6)", "=SUM(C4:C6)", "=SUM(D4:D6)"]]
-    report.get_range("A11").values = [["Total reconciliation"]]
-    report.get_range("B11").formulas = [['=IF(Synthetic_Inputs!F17=D8,"PASS","FAIL")']]
-    report.get_range("A12").values = [["12 records reconciled"]]
-    report.get_range("B12").formulas = [['=IF(COUNTA(Synthetic_Inputs!C4:C15)=B8,"PASS","FAIL")']]
-    report.get_range("A13").values = [["Reference IDs unique"]]
-    checks = ",".join(
-        f"COUNTIF(Synthetic_Inputs!$C$4:$C$15,Synthetic_Inputs!C{i})=1"
-        for i in range(4, 16)
-    )
-    report.get_range("B13").formulas = [[f'=IF(AND({checks}),"PASS","FAIL")']]
-    report.get_range("A3:A13").format.column_width = 29
-    report.get_range("B3:C13").format.column_width = 16
-    report.get_range("D3:D13").format.column_width = 27
-    report.get_range("D4:D8").set_number_format("#,##0")
+def verify_inputs():
+    assert len(ROWS) == 12
+    assert len(set(r[2] for r in ROWS)) == len(ROWS), "Duplicate synthetic references"
+    assert sum(r[3] for r in ROWS) == EXPECTED_UNITS
+    assert sum(r[3] * r[4] for r in ROWS) == EXPECTED_TOMAN
+
+def build_workbook(output: Path):
+    verify_inputs()
+    wb = Workbook()
+    guide = wb.active
+    guide.title = "Scope_And_Readme"
+    source = wb.create_sheet("Synthetic_Inputs")
+    report = wb.create_sheet("One_Report_Pilot")
+    wb.calculation = CalcProperties(calcMode="auto", fullCalcOnLoad=True, forceFullCalc=True)
+
+    guide.append(["Synthetic Python-to-Excel reporting proof — NOT customer data"])
+    for item in [
+        ("Input", "12 fictional transaction records; no customer's database"),
+        ("Output", "One category-level report and three reconciliation formulas"),
+        ("Python validation", "Independent gross, quantity and unique reference checks"),
+        ("Unimplemented", "SQL Server connection, scheduling, four customer report templates"),
+        ("Contract gate", "Client-authorized inputs, written acceptance and funded milestone"),
+        ("Expected gross", EXPECTED_TOMAN),
+        ("Expected units", EXPECTED_UNITS),
+    ]: guide.append(item)
+
+    source.append(["Only synthetic records: never use as evidence of earned revenue"])
+    source.append([])
+    source.append(["Date", "Category", "Reference", "Quantity", "Unit Price (toman)", "Gross (toman)", "State"])
+    for idx, (date, category, ref, qty, price) in enumerate(ROWS, start=4):
+        source.append([date, category, ref, qty, price, f"=D{idx}*E{idx}", "Posted"])
+    source.cell(17, 1, "Synthetic gross total")
+    source.cell(17, 6, "=SUM(F4:F15)")
+
+    report.append(["One-report synthetic example — not a client delivery"])
+    report.append([])
+    report.append(["Category", "Record count", "Unit count", "Gross sales (toman)"])
+    for idx, category in enumerate(("Parts", "Services", "Tools"), start=4):
+        report.append([
+            category,
+            f"=COUNTIF(Synthetic_Inputs!$B$4:$B$15,A{idx})",
+            f"=SUMIF(Synthetic_Inputs!$B$4:$B$15,A{idx},Synthetic_Inputs!$D$4:$D$15)",
+            f"=SUMIF(Synthetic_Inputs!$B$4:$B$15,A{idx},Synthetic_Inputs!$F$4:$F$15)",
+        ])
+    report.cell(8, 1, "All categories")
+    for col, letter in ((2, "B"), (3, "C"), (4, "D")):
+        report.cell(8, col, f"=SUM({letter}4:{letter}6)")
+    report.cell(11, 1, "Gross total reconciles")
+    report.cell(11, 2, '=IF(Synthetic_Inputs!F17=D8,"PASS","FAIL")')
+    report.cell(12, 1, "Row count reconciles")
+    report.cell(12, 2, '=IF(COUNTA(Synthetic_Inputs!C4:C15)=B8,"PASS","FAIL")')
+    report.cell(13, 1, "References unique")
+    report.cell(13, 2, '=IF(SUMPRODUCT(1/COUNTIF(Synthetic_Inputs!C4:C15,Synthetic_Inputs!C4:C15))=12,"PASS","FAIL")')
+    report.cell(15, 1, "Formulas are recalculated when opened in a spreadsheet application")
+
+    navy, pale = "17456C", "EDF3F8"
+    for ws in (guide, source, report):
+        ws.freeze_panes = "A4"
+        ws.sheet_view.showGridLines = False
+        ws.row_dimensions[1].height = 28
+        ws["A1"].font = Font(name="Aptos", size=14, bold=True, color=navy)
+        ws.column_dimensions["A"].width = 31
+    for ws, row, count in ((source, 3, 7), (report, 3, 4)):
+        for col in range(1, count + 1):
+            cell = ws.cell(row, col)
+            cell.fill = PatternFill("solid", fgColor=navy)
+            cell.font = Font(name="Aptos", bold=True, color="FFFFFF")
+            cell.alignment = Alignment(wrap_text=True)
+        ws.row_dimensions[row].height = 29
+    guide.column_dimensions["B"].width = 76
+    for col, width in (("B", 20), ("C", 19), ("D", 15), ("E", 23), ("F", 21), ("G", 13)):
+        source.column_dimensions[col].width = width
+    report.column_dimensions["B"].width = 27
+    report.column_dimensions["C"].width = 18
+    report.column_dimensions["D"].width = 27
+    for row in range(4, 18):
+        for col in (5, 6):
+            source.cell(row, col).number_format = '#,##0'
+    for row in range(4, 9):
+        report.cell(row, 4).number_format = '#,##0'
+    for ws, start, end in ((source, 4, 15), (report, 4, 6)):
+        for row in range(start, end + 1):
+            if row % 2 == 0:
+                for cell in ws[row]:
+                    cell.fill = PatternFill("solid", fgColor=pale)
+    source.auto_filter.ref = "A3:G15"
     output.parent.mkdir(parents=True, exist_ok=True)
-    SpreadsheetFile.export_xlsx(wb).save(str(output))
-    print(f"GENERATED {output} | SYNTHETIC_GROSS_TOMAN={EXPECTED_TOMAN} | ROWS={len(ROWS)}")
+    wb.save(output)
+    return output
 
-if __name__ == "__main__":
+def validate_saved_workbook(path: Path):
+    wb = load_workbook(path)
+    assert wb.sheetnames == ["Scope_And_Readme", "Synthetic_Inputs", "One_Report_Pilot"]
+    ws, rep = wb["Synthetic_Inputs"], wb["One_Report_Pilot"]
+    records = [tuple(ws.cell(i, j).value for j in range(1, 6)) for i in range(4, 16)]
+    assert records == ROWS
+    assert sum(r[3] * r[4] for r in records) == EXPECTED_TOMAN
+    assert sum(r[3] for r in records) == EXPECTED_UNITS
+    assert len({r[2] for r in records}) == len(records)
+    assert all(ws.cell(i, 6).value == f"=D{i}*E{i}" for i in range(4, 16))
+    assert rep["D4"].value.startswith("=SUMIF(")
+    assert all(rep[f"B{i}"].value.startswith("=IF(") for i in (11,12,13))
+    return {"sheets": len(wb.sheetnames), "records": len(records),
+            "gross_toman_fictional": EXPECTED_TOMAN, "quantity_fictional": EXPECTED_UNITS,
+            "formulas_verified": True, "excel_calculation_not_executed": True}
+
+def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", type=Path, default=Path("synthetic_one_report.xlsx"))
-    create_workbook(parser.parse_args().output)
+    args = parser.parse_args()
+    path = build_workbook(args.output)
+    result = validate_saved_workbook(path)
+    print(f"PASS {path} | {result}")
+
+if __name__ == "__main__":
+    main()
