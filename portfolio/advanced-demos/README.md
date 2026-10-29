@@ -100,3 +100,7 @@ All three scripts use fixed RNG seeds or fixed parameter grids, print machine-re
 An additional **independent synthetic Python example** demonstrates deterministic occupancy-sensitive route selection as drivers arrive. It is **not** a customer deliverable, empirical traffic optimization, or reproduction of a third-party article. Six synthetic drivers distribute 2/4 over two fictional routes, with a toy total latency of **47.48 driver-minutes** versus **165** if all use the free-flow-shortest option. No real-world saving is claimed. Five unit tests passed on the author's Windows machine; the GitHub numerical QA workflow also runs those tests for Python 3.11/3.12.
 
 [Read the methodology, code, and unit tests](online_congestion_game/README.md). This supplemental demonstration does not alter the 26 separately evidence-classified case-study entries or imply any paid customer contract.
+
+## Supplemental independent OpenSees-style Recorder postprocessing
+
+A tested, dependency-free Python numeric file-to-SVG helper demonstrates basic handling of OpenSees-style time and response recorder outputs. **Eight local Windows unit tests passed** on fabricated input. It does **not** run OpenSees, validate a structural model, use client data or establish any contracted work. [Code, tests and limitations](opensees_recorder_plotting/README.md). This is supplemental and does not modify the count of evidence-classified primary case studies.

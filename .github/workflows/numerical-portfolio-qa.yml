@@ -42,3 +42,5 @@ jobs:
 
       - name: Synthetic online congestion-game route-choice unit tests
         run: python -m unittest discover -s portfolio/advanced-demos/online_congestion_game -p 'test_synthetic_online_congestion_game_demo.py' -v
+      - name: Synthetic OpenSees-style recorder plot unit tests
+        run: python -m unittest discover -s portfolio/advanced-demos/opensees_recorder_plotting -p 'test_opensees_recorder_plot_demo.py' -v
