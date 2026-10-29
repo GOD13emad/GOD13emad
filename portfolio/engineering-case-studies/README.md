@@ -66,7 +66,7 @@ The results demonstrate **an operational installation and convergence on these t
 
 Cross-disciplinary engineering workflow implemented across projects: source-file attribution and hashing, unit consistency, baseline vs candidate comparisons, explicit physical constraints, independent numerical recalculations, geometry/mesh/solver checks and handoffs with clearly marked unpassed gates.
 
-Two **new original, tested** compact public scripts extend this portfolio: [nine-channel FDD](../advanced-demos/nine_channel_fdd_demo.py) and [robust LQR state feedback with a 27-case parameter sweep](../advanced-demos/lqr_vibration_robustness_demo.py). A separate [three-member truss MATLAB optimization](../matlab-three-bar-truss/README.md) is also available.
+Three **new original, tested** compact public scripts extend this portfolio: [nine-channel FDD](../advanced-demos/nine_channel_fdd_demo.py) and [robust LQR state feedback with a 27-case parameter sweep](../advanced-demos/lqr_vibration_robustness_demo.py), plus [robust two-DOF TMD frequency-response optimization](../advanced-demos/robust_2dof_tmd_demo.py). A separate [three-member truss MATLAB optimization](../matlab-three-bar-truss/README.md) is also available.
 
 ---
 
