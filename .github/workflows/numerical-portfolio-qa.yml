@@ -16,7 +16,7 @@ permissions:
 
 jobs:
   independently-tested-examples:
-    name: Python ${{ matrix.python-version }} / Synthetic FDD and LQR
+    name: Python ${{ matrix.python-version }} / Synthetic numerical demos
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
@@ -39,3 +39,6 @@ jobs:
         run: python portfolio/advanced-demos/lqr_vibration_robustness_demo.py
       - name: Two-DOF TMD - robust absorber optimization
         run: python portfolio/advanced-demos/robust_2dof_tmd_demo.py
+
+      - name: Synthetic online congestion-game route-choice unit tests
+        run: python -m unittest discover -s portfolio/advanced-demos/online_congestion_game -p 'test_synthetic_online_congestion_game_demo.py' -v
