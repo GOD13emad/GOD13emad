@@ -1,0 +1,31 @@
+name: Portfolio Evidence Integrity
+on:
+  push:
+    paths:
+      - "PORTFOLIO.md"
+      - "README.md"
+      - "ENGINEERING_SERVICES.md"
+      - "FREELANCE_PROFILE_FA.md"
+      - "portfolio/**"
+      - ".github/workflows/portfolio-evidence-integrity.yml"
+  pull_request:
+    paths:
+      - "PORTFOLIO.md"
+      - "README.md"
+      - "ENGINEERING_SERVICES.md"
+      - "FREELANCE_PROFILE_FA.md"
+      - "portfolio/**"
+      - ".github/workflows/portfolio-evidence-integrity.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-source-provenance:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Validate 26 numbered entries, publisher DOIs, ownership and local links
+        run: python3 portfolio/validate_evidence.py
