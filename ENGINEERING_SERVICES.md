@@ -4,9 +4,13 @@
 
 This page describes technical services I can **scope and evaluate**, not an assertion of completed customer contracts. Availability, schedule, price, technical feasibility and software licensing are confirmed for each project before a binding commitment.
 
+## Public research data publication
+
+Two real, independently verifiable Mendeley Data records list the owner among the collaborative contributors for 2023 driving-cycle datasets: [Runna (DOI)](https://doi.org/10.17632/csncnv8wnd.2) and [Tiba (DOI)](https://doi.org/10.17632/xw4shs8hyy.3), published June 2024 under CC BY 4.0. **Data deposits, not peer-reviewed journal articles**. These establish public scholarly evidence for automotive driving-data research without making unsupported individual-contribution claims.
+
 ## Selected verified engineering breadth
 
-**[Complete 26-entry engineering and software portfolio](PORTFOLIO.md)** — detailed [electromechanical/CAD/OMA case studies](portfolio/engineering-case-studies/README.md), [six genuine software repositories](portfolio/software-systems/README.md), and [independent tested algorithms with illustrated FDD/LQR results](portfolio/advanced-demos/README.md). This experience spans electromagnetic design, native SolidWorks automation, signal processing, vibration/control, finite-element validation, multi-platform application architecture, secure remote tools and software release QA.
+**[Complete 27-entry engineering and software portfolio](PORTFOLIO.md)** — detailed [electromechanical/CAD/OMA case studies](portfolio/engineering-case-studies/README.md), [six genuine software repositories](portfolio/software-systems/README.md), and [independent tested algorithms with illustrated FDD/LQR results](portfolio/advanced-demos/README.md). This experience spans electromagnetic design, native SolidWorks automation, signal processing, vibration/control, finite-element validation, multi-platform application architecture, secure remote tools and software release QA.
 
 | Selected quantitative evidence | What was actually verified |
 |---|---|
