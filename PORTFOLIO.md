@@ -5,6 +5,8 @@
 
 This is a **selected multidisciplinary portfolio**, not a one-page list of software names. It covers documented hands-on design and research, working released software, native engineering artifacts, reproducible tests and self-authored computational work. Status labels are intentional: a tested algorithm, a manufactured prototype, a published software binary and an unreleased research candidate require different evidence.
 
+**[Evidence matrix for all 26 numbered entries](portfolio/EVIDENCE_MATRIX.md)** — inspect which claims are backed by public source, actual tests, private records or conditional third-party rights, and the remaining acceptance caveats.
+
 ## Areas of technical execution
 
 | Specialization | Work examples |
