@@ -78,6 +78,7 @@ New original source backed by actual execution assertions:
 
 - [9-channel FDD cross-spectrum and modal peak estimation](../advanced-demos/nine_channel_fdd_demo.py)
 - [LQR vibration reduction and 27-case robustness grid](../advanced-demos/lqr_vibration_robustness_demo.py)
+- [Robust 2DOF tuned mass damper synthesis and 3-case uncertainty sweep](../advanced-demos/robust_2dof_tmd_demo.py)
 - [MATLAB mechanical truss constrained mass optimization](../matlab-three-bar-truss/truss_optimization_demo.m)
 
 These are **synthetic models**, not fabricated client success stories. Each source discloses its scope, reproducibility and technical limitations.
