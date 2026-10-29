@@ -4,6 +4,21 @@
 
 This page describes technical services I can **scope and evaluate**, not an assertion of completed customer contracts. Availability, schedule, price, technical feasibility and software licensing are confirmed for each project before a binding commitment.
 
+## Selected verified engineering breadth
+
+**[Complete 17-entry engineering and software portfolio](PORTFOLIO.md)** — detailed [electromechanical/CAD/OMA case studies](portfolio/engineering-case-studies/README.md), [six genuine software repositories](portfolio/software-systems/README.md), and [independent tested algorithms with illustrated FDD/LQR results](portfolio/advanced-demos/README.md). This experience spans electromagnetic design, native SolidWorks automation, signal processing, vibration/control, finite-element validation, multi-platform application architecture, secure remote tools and software release QA.
+
+| Selected quantitative evidence | What was actually verified |
+|---|---|
+| Permanent-magnet design workflow | **21 native SolidWorks drawings and 21 PDF drawing outputs** in a scoped manufacturing documentation package |
+| Operational modal research | **9-channel synthetic acceleration data**, FDD/EFDD/SSI studies, 41 spectral/mass equations and openly recorded scientific holds |
+| Native CAD automation | Accepted assembly/drawing checks, zero-positive-interference **in the recorded inspected assembly**, installer release candidate, final product gates still open |
+| Public desktop software | Versioned Windows/Linux releases, hardware/network telemetry tools, RTL Word document agent, multi-host MCP automation |
+| Original synthetic algorithm verification | Three-bar MATLAB design study, 9-channel FDD with **MAC≥0.999578** in the synthetic test, LQR with **27/27** parameter-stability checks |
+| Licensed-software runtime probes | Official built-in COMSOL heat-transfer and CFD cases solved to completion; commercial-use rights **not confirmed** |
+
+**No manufactured prototype, real customer contract, independently audited commercial license or field sensor dataset is implied where one is not documented.** The intent is to offer appropriately scoped engineering services based on actual implementation experience, not to overstate completion or client history.
+
 ## Work I can evaluate
 
 | Service | Typical scope | Potential handover |
