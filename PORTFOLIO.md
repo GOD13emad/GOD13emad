@@ -57,6 +57,25 @@ This is a **selected multidisciplinary portfolio**, not a one-page list of softw
 
 **Important distinction:** All four demonstrations were self-authored and executed with tests, but use **synthetic teaching models**. They do not represent real customer contracts, field sensor data, universal best performance, physically built actuators or global optimization proofs.
 
+## Additional workstreams identified in the cross-drive audit
+
+Read-only inspection of the user's local Windows research/application roots, OneDrive academic directories, and Google Drive project-status summaries revealed **eight additional distinct research/prototype tracks**. These are **not** eight finished client contracts, accepted peer-reviewed papers, public product releases or independently audited physical devices.
+
+| # | Research / engineering workstream | Stage and publicly safe evidence |
+|---|---|---|
+| 19 | **Molecular dynamics, graphene and laser-induced graphene research** | LAMMPS/Python/atomistic modal methods; bounded computational studies, scientific/article-release gates still open |
+| 20 | **LIG resonator, energy harvesting and self-powered sensing** | Research/proposal formulation and materials/harvester modeling; prototype/patent grant not proven |
+| 21 | **Neural networks and MATLAB/Simulink modeling** | Historical graduate project sources and Simulink file found in personal OneDrive; not re-executed |
+| 22 | **Intelligent assessment and cognitive software** | Private multi-role app, scoped browser/backend tests; production and scientific acceptance NOT FINAL |
+| 23 | **Business process and channel agent engineering** | Private gateway/API/authorization automation prototype; financial/field-production gates OPEN |
+| 24 | **Windows secure connection utility development** | Private .NET installer/network state-machine and rollback tests; field VPN/RDP gates OPEN |
+| 25 | **Video workflow and agent extension** | Scoped local pipeline for FFmpeg/ComfyUI/processing and job provenance; personal media and rights are protected |
+| 26 | **Single-photo reconstruction and printable 3D experiments** | Model/pipeline experiments; identity fidelity and print-ready outputs NOT accepted |
+
+[**Read the evidence limits of the eight additional workstreams →**](portfolio/extended-research-prototypes/README.md)
+
+**Privacy boundary:** unpublished university work, third-party sources, personal recordings, private software/client data, credentials, proprietary CAD designs and research archives are intentionally not uploaded. This selection remains incomplete relative to the total user-owned drives and historical CVs; a private candidate inventory tracks unreviewed areas.
+
 ## What can be delivered in a properly scoped project?
 
 Depending on verified technical inputs and legally available tool licenses: reproducible MATLAB/Python analyses, parametric algorithms, FE/CAE model preparation, comparative numerical diagnostics, editable native CAD drawings, software source with tests, engineering reports, release QA, installation and technical documentation. Each delivery can include input assumptions, error/validation bounds, versioned source and reproducible test evidence.
@@ -73,8 +92,8 @@ Depending on verified technical inputs and legally available tool licenses: repr
 
 تجربهٔ اجرایی این مجموعه فقط محدود به حل یک مسئلهٔ MATLAB یا تهیهٔ یک گزارش دانشگاهی نیست. دامنهٔ پروژه‌های مستند شامل طراحی الکترومکانیکی و شبیه‌سازی میدان‌های الکترومغناطیسی، تولید مدل و نقشه‌های بومی SolidWorks، توسعهٔ سامانهٔ اتوماسیون CAD، پردازش طیفی و شناسایی مودال چندکاناله، تحلیل‌های محدود المان محدود و توسعهٔ محصولات واقعی ویندوز و لینوکس است.
 
-برای ارزیابی توان فنی، **۱۸ مدخل نمونه‌کار/پروژه** در سه بخش ارائه شده است: پروژه‌های مهندسی و پژوهشی، نرم‌افزارهای عمومی با مخازن رسمی، و سه نمونهٔ مستقلِ کدنویسی‌شده و اجراشده. ۱۸ مدخل به معنی ۱۸ قرارداد تکمیل‌شده نیست؛ برخی محصولات منتشرشده‌اند، برخی پژوهشی یا نسخهٔ آزمایشی‌اند و چهار مورد نمونهٔ محاسباتی مصنوعی‌اند.
+برای ارزیابی توان فنی، **۲۶ مدخل نمونه‌کار/پروژه و جریان کاری پژوهشی** در چهار بخش ارائه شده است: پروژه‌های مهندسی و پژوهشی، نرم‌افزارهای عمومی، چهار نمونهٔ مستقل کدنویسی‌شده و آزموده‌شده، و هشت جریان کاری تکمیلی که وضعیت پژوهشی یا آزمایشی آن‌ها مشخص شده است. ۲۶ مدخل به معنی ۲۶ قرارداد تکمیل‌شده نیست؛ برخی محصولات منتشرشده‌اند، برخی پژوهشی یا نسخهٔ آزمایشی‌اند و چهار مورد نمونهٔ محاسباتی مصنوعی‌اند.
 
 در همکاری حرفه‌ای، تأکید بر **فایل‌های قابل‌ویرایش، محاسبات قابل‌تکرار، آزمون قابل‌راستی‌آزمایی، اعتبارسنجی، گزارش فنی استاندارد، حفظ محرمانگی و شفافیت وضعیت تحویل** است. برآورد قیمت و زمان پس از دریافت هندسه، شرایط مرزی، داده و مقالهٔ مرجع و معیار پذیرش صورت می‌گیرد.
 
-[جزئیات مهندسی و پژوهشی](portfolio/engineering-case-studies/README.md) · [سامانه‌های نرم‌افزاری](portfolio/software-systems/README.md) · [نمونه‌های محاسباتی مستقل](portfolio/advanced-demos/README.md) · [ثبت درخواست همکاری](ENGINEERING_SERVICES.md)
+[جزئیات مهندسی و پژوهشی](portfolio/engineering-case-studies/README.md) · [پژوهش‌ها و نمونه‌های خصوصی تکمیلی](portfolio/extended-research-prototypes/README.md) · [سامانه‌های نرم‌افزاری](portfolio/software-systems/README.md) · [نمونه‌های محاسباتی مستقل](portfolio/advanced-demos/README.md) · [ثبت درخواست همکاری](ENGINEERING_SERVICES.md)
