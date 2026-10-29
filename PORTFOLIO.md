@@ -57,6 +57,14 @@ This is a **selected multidisciplinary portfolio**, not a one-page list of softw
 
 **Important distinction:** All four demonstrations were self-authored and executed with tests, but use **synthetic teaching models**. They do not represent real customer contracts, field sensor data, universal best performance, physically built actuators or global optimization proofs.
 
+## Industrial R&D, product development and innovation leadership
+
+The user's 2023, 2025 and July 2026 self-maintained CVs were retrieved from the connected **personal OneDrive** and cross-checked for professional breadth. They record involvement in **automotive NVH and powertrain/gearbox testing, household-appliance R&D, driving-cycle and clustering analysis, vehicle seating certification studies, industrial security/control systems, university laboratories, technology-park research, product development/commercialization consulting and open-innovation management**.
+
+These **CV-reported career areas are additional to the 26 catalogued project/prototype tracks**, not newly invented paid contracts or verified employer-certified deliverables. Three historical résumé versions differ on some academic-degree details; those are not silently reconciled. Numerical outcomes in older résumé versions are withheld pending independent evaluation.
+
+[**Review provenance-labeled industrial, academic and executive experience →**](portfolio/industry-leadership-experience/README.md)
+
 ## Additional workstreams identified in the cross-drive audit
 
 Read-only inspection of the user's local Windows research/application roots, OneDrive academic directories, and Google Drive project-status summaries revealed **eight additional distinct research/prototype tracks**. These are **not** eight finished client contracts, accepted peer-reviewed papers, public product releases or independently audited physical devices.
