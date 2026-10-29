@@ -53,3 +53,16 @@ out.extend(['<text x="510" y="412" fill="#cbd5e1" text-anchor="middle" font-size
 '<text x="690" y="106" fill="#fb923c" font-size="13" font-family="Arial">Uncontrolled</text>',
 '<text x="820" y="106" fill="#2dd4bf" font-size="13" font-family="Arial">LQR controlled</text>'])
 save("lqr_pulse_response.svg",out)
+
+# Tuned mass damper frequency response (the nominal system in 3-case robustness grid)
+tmd=runpy.run_path(str(root/"robust_2dof_tmd_demo.py"))
+peak=tmd["pairs"][1]
+out=header("Tuned Mass Damper | Robust 2DOF Design","Primary response for 100 N harmonic force, synthetic 2DOF 8 Hz nominal system")
+gr,xs,ys=grid([5,6,7,8,9,10,11,12],5,12,0,12,[(0,"0"),(3,"3"),(6,"6"),(9,"9"),(12,"12")])
+out.extend(gr)
+out.append(poly(np.asarray(tmd["freq"]),np.asarray(peak[1])*1000,xs,ys,"#fb923c",step=2))
+out.append(poly(np.asarray(tmd["freq"]),np.asarray(peak[0])*1000,xs,ys,"#2dd4bf",step=2))
+out.extend(['<text x="510" y="412" fill="#cbd5e1" text-anchor="middle" font-size="14" font-family="Arial">Harmonic excitation frequency (Hz)</text>',
+'<text x="690" y="106" fill="#fb923c" font-size="13" font-family="Arial">No absorber</text>',
+'<text x="825" y="106" fill="#2dd4bf" font-size="13" font-family="Arial">Optimized TMD</text>'])
+save("tmd_2dof_frequency_response.svg",out)
