@@ -12,6 +12,14 @@
 
 My work connects scientific modeling, practical engineering, and tools that help researchers and developers manage complex technical projects. I am interested in vibration analysis, mechanical product development, sensor-related research, reproducible workflows, and responsible uses of AI in engineering.
 
+## Full engineering & software portfolio
+
+**[Full engineering & software portfolio](PORTFOLIO.md)** — **17 evidence-linked project and demonstration entries** covering advanced mechanical design, 2D/3D electromagnetic and CAD work, 9-channel operational modal analysis, native CAD automation, cross-platform software products and tested MATLAB/Python algorithms.
+
+**[Engineering & research](portfolio/engineering-case-studies/README.md)** · **[Released software & systems](portfolio/software-systems/README.md)** · **[Tested FDD and LQR demos](portfolio/advanced-demos/README.md)** · **[MATLAB truss example](portfolio/matlab-three-bar-truss/README.md)**.
+
+**پورتفولیوی فنی:** نمونه‌کارهای واقعی و مستند مهندسی مکانیک، شبیه‌سازی، اتوماسیون CAD و نرم‌افزارهای منتشرشده، به‌همراه نمونه‌های محاسباتی مستقلِ آزمایش‌شده؛ وضعیت تحقیق، انتشار و پذیرش در هر بخش به‌صورت شفاف مشخص شده است.
+
 ## Engineering project collaboration
 
 **[Request technical engineering analysis or software work](ENGINEERING_SERVICES.md)** — clear scope, required inputs, potential deliverables and acceptance criteria for MATLAB, mechanical dynamics, COMSOL heat/flow preflight and technical software. Estimates depend on project data and appropriate licensing. [Contact via LinkedIn](https://www.linkedin.com/in/aliakbar-emadoddin-3bb8b5b8/).
