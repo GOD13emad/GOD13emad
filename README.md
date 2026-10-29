@@ -20,6 +20,10 @@ I pursue doctoral research in **mechanical engineering**, with an emphasis on **
 
 For research and professional collaboration, please use [my LinkedIn profile](https://www.linkedin.com/in/aliakbar-emadoddin-3bb8b5b8/).
 
+## Verified engineering computation sample
+
+**[MATLAB three-bar truss mass optimization](portfolio/matlab-three-bar-truss/README.md)** — independent, reproducible synthetic demonstration of finite-element-style stiffness assembly, member stress/displacement constraints and multistart numerical mass optimization. MATLAB R2025b execution passed, with **62.371% mass reduction for the educational example only**. [Inspect original MATLAB source](portfolio/matlab-three-bar-truss/truss_optimization_demo.m). **Not commissioned work; no global-optimum claim.**
+
 ## Shared engineering portfolio
 
 I also contribute to **[TandemVector Labs](https://github.com/TandemVector-Labs)**, a jointly stewarded engineering and software R&D collective. Individual project provenance, licensing, and release authority remain with their respective repositories.
