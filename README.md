@@ -23,6 +23,25 @@ My work connects scientific modeling, practical engineering, and tools that help
 
 *For a complete history, use the detailed portfolio and evidence links below; demos, release candidates and deployed products are not interchangeable.*
 
+## Selected software — visual highlights
+
+<table>
+<tr>
+<td width="50%" valign="top">
+  <a href="https://github.com/GOD13emad/ChatGPTRemoteCommander"><img src="https://raw.githubusercontent.com/TandemVector-Labs/.github/main/brand/social/ChatGPTRemoteCommander.png" alt="ChatGPT Remote Commander — permission-aware Windows and Linux MCP tooling" width="100%"></a>
+  <strong><a href="https://github.com/GOD13emad/ChatGPTRemoteCommander">ChatGPT Remote Commander</a></strong><br>
+  Original upstream · Permission-controlled workflows and execution evidence · <a href="https://github.com/GOD13emad/ChatGPTRemoteCommander/blob/main/START_HERE.md">Installation and release scope</a>
+</td>
+<td width="50%" valign="top">
+  <a href="https://github.com/TandemVector-Labs/remote-commander-browser"><img src="https://raw.githubusercontent.com/TandemVector-Labs/.github/main/brand/social/remote-commander-browser.png" alt="Remote Commander Browser — independent CEF browser shell" width="100%"></a>
+  <strong><a href="https://github.com/TandemVector-Labs/remote-commander-browser">Remote Commander Browser</a></strong><br>
+  Separate CEF/RTL desktop project · Candidate-stage software · <a href="https://github.com/TandemVector-Labs/remote-commander-browser#readme">Current limitations</a>
+</td>
+</tr>
+</table>
+
+*Independent development; no OpenAI endorsement. The two projects are distinct and their supported release statuses must be checked separately.*
+
 ## Full engineering & software portfolio
 
 **[Full engineering & software portfolio](PORTFOLIO.md)** — **26 numbered engineering/software/research tracks, plus a separately documented collaborative automotive data-publication program with two DOI releases** covering advanced mechanical design, 2D/3D electromagnetic and CAD work, 9-channel operational modal analysis, native CAD automation, cross-platform software products and tested MATLAB/Python algorithms.
