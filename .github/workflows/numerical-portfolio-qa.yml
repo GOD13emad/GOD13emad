@@ -1,0 +1,39 @@
+name: Numerical Portfolio QA
+
+on:
+  push:
+    paths:
+      - "portfolio/advanced-demos/**"
+      - ".github/workflows/numerical-portfolio-qa.yml"
+  pull_request:
+    paths:
+      - "portfolio/advanced-demos/**"
+      - ".github/workflows/numerical-portfolio-qa.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  independently-tested-examples:
+    name: Python ${{ matrix.python-version }} / Synthetic FDD and LQR
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12"]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+          cache-dependency-path: portfolio/advanced-demos/requirements.txt
+      - name: Install dependencies
+        run: python -m pip install -r portfolio/advanced-demos/requirements.txt
+      - name: Nine-channel FDD - synthetic verification
+        run: python portfolio/advanced-demos/nine_channel_fdd_demo.py
+      - name: Robust LQR - 27-case verification
+        run: python portfolio/advanced-demos/lqr_vibration_robustness_demo.py
