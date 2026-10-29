@@ -57,6 +57,17 @@ This is a **selected multidisciplinary portfolio**, not a one-page list of softw
 
 **Important distinction:** All four demonstrations were self-authored and executed with tests, but use **synthetic teaching models**. They do not represent real customer contracts, field sensor data, universal best performance, physically built actuators or global optimization proofs.
 
+## Publicly deposited research data — two verified DOI records
+
+An independent search of the publisher identified a **collaborative driving-cycle data research program** containing two published, DOI-bearing datasets with the owner's name in the contributor list:
+
+- **Runna driving data:** [10.17632/csncnv8wnd.2](https://doi.org/10.17632/csncnv8wnd.2), 5,739.1 km of 2023 driving records, published 14 June 2024.
+- **Tiba driving data:** [10.17632/xw4shs8hyy.3](https://doi.org/10.17632/xw4shs8hyy.3), 7,242.1 km of 2023 driving records, published 14 June 2024.
+
+Both publisher pages list **Aliakbar Emadoddin as one of five contributors** and identify academic/industrial research funders. **These are published datasets, not peer-reviewed journal papers** and not proof of a particular solo-author contribution.
+
+[**Read the source-verified research dataset portfolio →**](portfolio/peer-reviewed-and-open-research/README.md)
+
 ## Industrial R&D, product development and innovation leadership
 
 The user's 2023, 2025 and July 2026 self-maintained CVs were retrieved from the connected **personal OneDrive** and cross-checked for professional breadth. They record involvement in **automotive NVH and powertrain/gearbox testing, household-appliance R&D, driving-cycle and clustering analysis, vehicle seating certification studies, industrial security/control systems, university laboratories, technology-park research, product development/commercialization consulting and open-innovation management**.
