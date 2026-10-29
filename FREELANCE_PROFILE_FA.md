@@ -36,7 +36,7 @@
 
 ## پیوندها
 
-- [پورتفولیوی مرکزی با ۱۷ مدخل مهندسی و نرم‌افزاری](PORTFOLIO.md)
+- [پورتفولیوی مرکزی با ۱۸ مدخل مهندسی و نرم‌افزاری](PORTFOLIO.md)
 - [نمونه‌های پیشرفتهٔ FDD و LQR با نمودار و آزمون GitHub Actions](portfolio/advanced-demos/README.md)
 - [مجموعهٔ پروژه‌های مهندسی و پژوهشی](portfolio/engineering-case-studies/README.md)
 - [سامانه‌های نرم‌افزاری و انتشارهای رسمی](portfolio/software-systems/README.md)
