@@ -37,3 +37,5 @@ jobs:
         run: python portfolio/advanced-demos/nine_channel_fdd_demo.py
       - name: Robust LQR - 27-case verification
         run: python portfolio/advanced-demos/lqr_vibration_robustness_demo.py
+      - name: Two-DOF TMD - robust absorber optimization
+        run: python portfolio/advanced-demos/robust_2dof_tmd_demo.py
