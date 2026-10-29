@@ -2,6 +2,16 @@
 
 **Status: scripts executed and assertions passed on owner Windows host (29 October 2026).** These are original independent *synthetic* demonstrations created to make the numerical methods inspectable; they are not client deliverables or experimental validation.
 
+## Visual verification
+
+![Nine-channel FDD synthetic cross-spectrum](./fdd_9channel_spectrum.svg)
+
+![LQR vibration displacement: controlled and uncontrolled](./lqr_pulse_response.svg)
+
+These SVG figures were generated on the owner's Windows machine from the **same original tested Python sources**, using [render_advanced_demo_figures.py](render_advanced_demo_figures.py). Both are reproducible generated assets and represent synthetic test data, not measurements.
+
+**Continuous integration:** [Numerical Portfolio QA](https://github.com/GOD13emad/GOD13emad/actions/workflows/numerical-portfolio-qa.yml) — successful matrix run [#40797023860](https://github.com/GOD13emad/GOD13emad/actions/runs/40797023860), with both **Python 3.11 and 3.12** passing the FDD and LQR assertions. Its prerequisite dependency-list follow-up fixed an earlier transient CI failure caused by referencing a requirements file before creating it.
+
 ## 1. Nine-channel Frequency Domain Decomposition (FDD)
 
 Source: [nine_channel_fdd_demo.py](nine_channel_fdd_demo.py).
