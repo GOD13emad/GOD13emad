@@ -14,9 +14,9 @@ My work connects scientific modeling, practical engineering, and tools that help
 
 ## Full engineering & software portfolio
 
-**[Full engineering & software portfolio](PORTFOLIO.md)** — **17 evidence-linked project and demonstration entries** covering advanced mechanical design, 2D/3D electromagnetic and CAD work, 9-channel operational modal analysis, native CAD automation, cross-platform software products and tested MATLAB/Python algorithms.
+**[Full engineering & software portfolio](PORTFOLIO.md)** — **18 evidence-linked project and demonstration entries** covering advanced mechanical design, 2D/3D electromagnetic and CAD work, 9-channel operational modal analysis, native CAD automation, cross-platform software products and tested MATLAB/Python algorithms.
 
-**[Engineering & research](portfolio/engineering-case-studies/README.md)** · **[Released software & systems](portfolio/software-systems/README.md)** · **[Tested FDD and LQR demos](portfolio/advanced-demos/README.md)** · **[MATLAB truss example](portfolio/matlab-three-bar-truss/README.md)**.
+**[Engineering & research](portfolio/engineering-case-studies/README.md)** · **[Released software & systems](portfolio/software-systems/README.md)** · **[Tested FDD, LQR and TMD demos](portfolio/advanced-demos/README.md)** · **[MATLAB truss example](portfolio/matlab-three-bar-truss/README.md)**.
 
 **پورتفولیوی فنی:** نمونه‌کارهای واقعی و مستند مهندسی مکانیک، شبیه‌سازی، اتوماسیون CAD و نرم‌افزارهای منتشرشده، به‌همراه نمونه‌های محاسباتی مستقلِ آزمایش‌شده؛ وضعیت تحقیق، انتشار و پذیرش در هر بخش به‌صورت شفاف مشخص شده است.
 
