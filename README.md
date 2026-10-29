@@ -12,6 +12,10 @@
 
 My work connects scientific modeling, practical engineering, and tools that help researchers and developers manage complex technical projects. I am interested in vibration analysis, mechanical product development, sensor-related research, reproducible workflows, and responsible uses of AI in engineering.
 
+## Engineering project collaboration
+
+**[Request technical engineering analysis or software work](ENGINEERING_SERVICES.md)** — clear scope, required inputs, potential deliverables and acceptance criteria for MATLAB, mechanical dynamics, COMSOL heat/flow preflight and technical software. Estimates depend on project data and appropriate licensing. [Contact via LinkedIn](https://www.linkedin.com/in/aliakbar-emadoddin-3bb8b5b8/).
+
 ## Research and engineering
 
 I pursue doctoral research in **mechanical engineering**, with an emphasis on **dynamics, vibrations, and control**. I also work across product R&D and technology/innovation initiatives.
