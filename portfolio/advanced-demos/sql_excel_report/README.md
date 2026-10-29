@@ -1,21 +1,26 @@
-# SQL-to-Excel reporting: synthetic one-report example
+# SQL-to-Excel reporting: runnable synthetic one-report example
 
-**Demo only.** This work uses 12 fictional transactions, not information from a customer, and was not sold or delivered under contract.
+**Status:** A self-authored demonstration with 12 fictional transactions. This is **not** an accepted customer contract, an implementation of the customer's SQL schema, a paid delivery or evidence of collected revenue.
 
-The example builds an Excel workbook containing the synthetic input rows, a category-level report, and reconciliation formulas. The expected aggregate is 12 records, 27 units, and 8,092,000 fictional toman. The original workbook was checked with three passing reconciliations.
+The program creates three Excel worksheets: `Scope_And_Readme`, `Synthetic_Inputs` and `One_Report_Pilot`. The report contains category summaries, formula-based totals and three reconciliation indicators. Python independently checks the exact fictional input records, sums and spreadsheet formula structure.
 
-[Python source code](build_synthetic_pilot.py)
+## Reproduce
 
-The script uses `artifact_tool` and can be run in an environment with that dependency:
+Requires Python 3.10+ and `openpyxl` (tested on the owner's Windows machine with Python 3.14.7 and openpyxl 3.1.5).
 
 ```bash
+python -m pip install openpyxl
 python build_synthetic_pilot.py --output synthetic_one_report.xlsx
 ```
 
-The public code is a simplified source variant of the tested workbook and should be run again in the intended execution environment. It does not connect to SQL Server, operate a scheduler, or implement the four financial reports described in a separate marketplace listing.
+**Verified owner-machine run, 30 Oct 2026:** Script executed successfully, produced an 8,080-byte workbook containing 3 worksheets and 12 fictional input records. Independent Python assertions checked 27 units and the synthetic gross of **8,092,000 toman**; workbook formulas and report-acceptance cell structure were verified by reading the saved file. Output: `PASS`. Formula *results* are set to calculate when opened in Excel; the Python run checks formula presence and internal data but does not execute Excel's calculation engine.
 
-## One independently priced pilot
+[Review the full Python generator and validation](build_synthetic_pilot.py).
 
-After a client supplies an authorized, sanitized sample, a target Excel format and a written acceptance rule, a one-report extraction/mapping/checking milestone can be scoped. Commercial rates, timing, data rights and payment terms are determined before execution.
+## Scope and commercial prerequisites
 
-[Engineering services and professional contact](../../../ENGINEERING_SERVICES.md)
+The sample uses only invented records: no SQL Server, SARB accounting instance, confidential ledger, customer credentials, automatic scheduler or real client source files. It implements one illustrative Excel report, not four custom financial reports.
+
+A genuine **paid** pilot requires the prospective buyer's authorized sanitized input sample or restricted read-only SQL view, target template, written acceptance and error tolerances, license/rights confirmation, viable fixed price and funded escrow/approved prepayment before substantive client work. Further reports are separate milestones unless explicitly contracted.
+
+[Engineering services and professional contact](../../../ENGINEERING_SERVICES.md).
