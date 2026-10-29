@@ -44,17 +44,18 @@ This is a **selected multidisciplinary portfolio**, not a one-page list of softw
 
 [**Read product-by-product engineering evidence →**](portfolio/software-systems/README.md)
 
-## Original reproducible computation — actual test results
+## Original reproducible computation — four actual tested examples
 
 | # | Demonstration / code | Tested result |
 |---|---|---|
 | 15 | [**MATLAB constrained truss optimization**](portfolio/matlab-three-bar-truss/README.md) | three-member synthetic truss: **62.371%** mass reduction relative to explicitly specified baseline; displacement/stress/equilibrium checks |
 | 16 | [**9-channel FDD spectral decomposition**](portfolio/advanced-demos/README.md) | three generated resonances at 5, 11, 19 Hz → **5, 11, 18.75 Hz** estimated; maximum error **0.25 Hz**; minimum shape **MAC 0.999578** |
 | 17 | [**Robust state-space LQR vibration control**](portfolio/advanced-demos/README.md) | synthetic mechanical model: **92.698% reduction** in peak displacement under a 100 N pulse, **27/27** closed-loop parameter-grid stability checks |
+| 18 | [**Robust tuned mass damper (TMD) optimization**](portfolio/advanced-demos/README.md) | original synthetic two-DOF primary/absorber model; **78.193%** reduction in worst peak frequency response across **3/3** ±5% primary resonance cases |
 
 [**Inspect Python sources and reproducibility steps →**](portfolio/advanced-demos/README.md).
 
-**Important distinction:** All three demonstrations were self-authored and executed with tests, but use **synthetic teaching models**. They do not represent real customer contracts, field sensor data, universal best performance, physically built actuators or global optimization proofs.
+**Important distinction:** All four demonstrations were self-authored and executed with tests, but use **synthetic teaching models**. They do not represent real customer contracts, field sensor data, universal best performance, physically built actuators or global optimization proofs.
 
 ## What can be delivered in a properly scoped project?
 
@@ -72,7 +73,7 @@ Depending on verified technical inputs and legally available tool licenses: repr
 
 تجربهٔ اجرایی این مجموعه فقط محدود به حل یک مسئلهٔ MATLAB یا تهیهٔ یک گزارش دانشگاهی نیست. دامنهٔ پروژه‌های مستند شامل طراحی الکترومکانیکی و شبیه‌سازی میدان‌های الکترومغناطیسی، تولید مدل و نقشه‌های بومی SolidWorks، توسعهٔ سامانهٔ اتوماسیون CAD، پردازش طیفی و شناسایی مودال چندکاناله، تحلیل‌های محدود المان محدود و توسعهٔ محصولات واقعی ویندوز و لینوکس است.
 
-برای ارزیابی توان فنی، **۱۷ مدخل نمونه‌کار/پروژه** در سه بخش ارائه شده است: پروژه‌های مهندسی و پژوهشی، نرم‌افزارهای عمومی با مخازن رسمی، و سه نمونهٔ مستقلِ کدنویسی‌شده و اجراشده. ۱۷ مدخل به معنی ۱۷ قرارداد تکمیل‌شده نیست؛ برخی محصولات منتشرشده‌اند، برخی پژوهشی یا نسخهٔ آزمایشی‌اند و سه مورد نمونهٔ محاسباتی مصنوعی‌اند.
+برای ارزیابی توان فنی، **۱۸ مدخل نمونه‌کار/پروژه** در سه بخش ارائه شده است: پروژه‌های مهندسی و پژوهشی، نرم‌افزارهای عمومی با مخازن رسمی، و سه نمونهٔ مستقلِ کدنویسی‌شده و اجراشده. ۱۸ مدخل به معنی ۱۸ قرارداد تکمیل‌شده نیست؛ برخی محصولات منتشرشده‌اند، برخی پژوهشی یا نسخهٔ آزمایشی‌اند و چهار مورد نمونهٔ محاسباتی مصنوعی‌اند.
 
 در همکاری حرفه‌ای، تأکید بر **فایل‌های قابل‌ویرایش، محاسبات قابل‌تکرار، آزمون قابل‌راستی‌آزمایی، اعتبارسنجی، گزارش فنی استاندارد، حفظ محرمانگی و شفافیت وضعیت تحویل** است. برآورد قیمت و زمان پس از دریافت هندسه، شرایط مرزی، داده و مقالهٔ مرجع و معیار پذیرش صورت می‌گیرد.
 
