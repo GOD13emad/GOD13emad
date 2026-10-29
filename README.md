@@ -14,7 +14,7 @@ My work connects scientific modeling, practical engineering, and tools that help
 
 ## Full engineering & software portfolio
 
-**[Full engineering & software portfolio](PORTFOLIO.md)** — **27 evidence-labeled engineering/research workstreams** covering advanced mechanical design, 2D/3D electromagnetic and CAD work, 9-channel operational modal analysis, native CAD automation, cross-platform software products and tested MATLAB/Python algorithms.
+**[Full engineering & software portfolio](PORTFOLIO.md)** — **26 numbered engineering/software/research tracks, plus a separately documented collaborative automotive data-publication program with two DOI releases** covering advanced mechanical design, 2D/3D electromagnetic and CAD work, 9-channel operational modal analysis, native CAD automation, cross-platform software products and tested MATLAB/Python algorithms.
 
 **[Engineering & research](portfolio/engineering-case-studies/README.md)** · **[Released software & systems](portfolio/software-systems/README.md)** · **[Tested FDD, LQR and TMD demos](portfolio/advanced-demos/README.md)** · **[MATLAB truss example](portfolio/matlab-three-bar-truss/README.md)**.
 
