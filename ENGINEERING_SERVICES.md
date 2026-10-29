@@ -6,7 +6,7 @@ This page describes technical services I can **scope and evaluate**, not an asse
 
 ## Selected verified engineering breadth
 
-**[Complete 18-entry engineering and software portfolio](PORTFOLIO.md)** — detailed [electromechanical/CAD/OMA case studies](portfolio/engineering-case-studies/README.md), [six genuine software repositories](portfolio/software-systems/README.md), and [independent tested algorithms with illustrated FDD/LQR results](portfolio/advanced-demos/README.md). This experience spans electromagnetic design, native SolidWorks automation, signal processing, vibration/control, finite-element validation, multi-platform application architecture, secure remote tools and software release QA.
+**[Complete 26-entry engineering and software portfolio](PORTFOLIO.md)** — detailed [electromechanical/CAD/OMA case studies](portfolio/engineering-case-studies/README.md), [six genuine software repositories](portfolio/software-systems/README.md), and [independent tested algorithms with illustrated FDD/LQR results](portfolio/advanced-demos/README.md). This experience spans electromagnetic design, native SolidWorks automation, signal processing, vibration/control, finite-element validation, multi-platform application architecture, secure remote tools and software release QA.
 
 | Selected quantitative evidence | What was actually verified |
 |---|---|
@@ -18,6 +18,12 @@ This page describes technical services I can **scope and evaluate**, not an asse
 | Licensed-software runtime probes | Official built-in COMSOL heat-transfer and CFD cases solved to completion; commercial-use rights **not confirmed** |
 
 **No manufactured prototype, real customer contract, independently audited commercial license or field sensor dataset is implied where one is not documented.** The intent is to offer appropriately scoped engineering services based on actual implementation experience, not to overstate completion or client history.
+
+## Industrial projects and senior engineering execution
+
+The owner's historical CVs record engineering experience across **automotive NVH/dynamics, gearbox diagnostic test concepts, appliance product development, driving-cycle data analysis, control/security system work, R&D operations, technology commercialization and university/industry innovation programs**. This professional scope is distinct from the separate source-backed software releases and four original synthetic algorithms. See [CV-sourced industrial experience and evidence limitations](portfolio/industry-leadership-experience/README.md) and [the expanded 26-track portfolio](PORTFOLIO.md).
+
+For business projects, appropriate early deliverables may include a technical feasibility evaluation, requirements and constraints register, validation and test planning, product lifecycle considerations, funding/proposal preparation and data-backed scope definition. Actual contracts and funding outcomes are **never implied by CV role titles alone**.
 
 ## Work I can evaluate
 
