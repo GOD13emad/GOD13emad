@@ -48,12 +48,12 @@ My profile also records sensor-manufacturing laboratory supervision at **SADA**,
 <table>
 <tr>
 <td width="50%" valign="top">
-  <a href="https://github.com/GOD13emad/ChatGPTRemoteCommander"><img src="https://raw.githubusercontent.com/TandemVector-Labs/.github/main/brand/social/ChatGPTRemoteCommander.png" alt="ChatGPT Remote Commander — permission-aware Windows and Linux MCP tooling" width="100%"></a>
+  <a href="https://github.com/GOD13emad/ChatGPTRemoteCommander"><img src="assets/projects/ChatGPTRemoteCommander-hero-20261030.png" alt="ChatGPT Remote Commander — permission-aware Windows and Linux MCP tooling" width="100%"></a>
   <strong><a href="https://github.com/GOD13emad/ChatGPTRemoteCommander">ChatGPT Remote Commander</a></strong><br>
   Original upstream · Permission-controlled workflows and execution evidence · <a href="https://github.com/GOD13emad/ChatGPTRemoteCommander/blob/main/START_HERE.md">Installation and release scope</a>
 </td>
 <td width="50%" valign="top">
-  <a href="https://github.com/TandemVector-Labs/remote-commander-browser"><img src="https://raw.githubusercontent.com/TandemVector-Labs/.github/main/brand/social/remote-commander-browser.png" alt="Remote Commander Browser — independent CEF browser shell" width="100%"></a>
+  <a href="https://github.com/TandemVector-Labs/remote-commander-browser"><img src="assets/projects/RemoteCommanderBrowser-hero-20261030.png" alt="Remote Commander Browser — independent CEF browser shell" width="100%"></a>
   <strong><a href="https://github.com/TandemVector-Labs/remote-commander-browser">Remote Commander Browser</a></strong><br>
   Separate CEF/RTL desktop project · Candidate-stage software · <a href="https://github.com/TandemVector-Labs/remote-commander-browser#readme">Current limitations</a>
 </td>
@@ -61,6 +61,8 @@ My profile also records sensor-manufacturing laboratory supervision at **SADA**,
 </table>
 
 *Independent development; no OpenAI endorsement. The two projects are distinct and their supported release statuses must be checked separately.*
+
+*These high-resolution covers are conceptual illustrations, not screenshots, verified runtime results or proof of production readiness.*
 
 ## Full engineering & software portfolio
 
