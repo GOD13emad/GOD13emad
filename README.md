@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/profile-header.svg" width="100%" alt="Engineering and research: dynamics, vibration, control and software tools"></p>
+<p align="center"><img src="assets/profile-header-approved-20261030.webp" width="100%" alt="Engineering and research: dynamics, vibration, control and software tools"></p>
 
 <p align="center">
   <a href="https://github.com/TandemVector-Labs">TandemVector Labs</a> &nbsp;·&nbsp;
