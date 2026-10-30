@@ -104,3 +104,22 @@ An additional **independent synthetic Python example** demonstrates deterministi
 ## Supplemental independent OpenSees-style Recorder postprocessing
 
 A tested, dependency-free Python numeric file-to-SVG helper demonstrates basic handling of OpenSees-style time and response recorder outputs. **Eight local Windows unit tests passed** on fabricated input. It does **not** run OpenSees, validate a structural model, use client data or establish any contracted work. [Code, tests and limitations](opensees_recorder_plotting/README.md). This is supplemental and does not modify the count of evidence-classified primary case studies.
+
+## Supplemental independent five-model regression evaluation
+
+[Runnable source: regression_bid_pilot.py](regression_bid_pilot.py). This **synthetic, non-client** data-science demonstration implements five regressors (Ridge, ElasticNet, RandomForest, ExtraTrees, HistGradientBoosting) plus a mean-value baseline. Each model is evaluated through three-fold training-only cross-validation and a separate untouched 20% holdout. Numeric imputation/scaling and categorical encoding remain **inside the cross-validation pipelines** to reduce leakage. The report includes CV RMSE and held-out MAE/RMSE/R², with an optional chronological split for time-series CSVs.
+
+**Execution evidence (local Windows, 30 October 2026):** with Python 3.14.7, scikit-learn 1.8.0, NumPy 2.4.6 and pandas 2.3.3, the 330-row synthetic self-test passed (20 features, 264 train / 66 holdout, all six algorithms evaluated). ElasticNet was selected by the training-only CV metric, with synthetic holdout R² ≈ 0.978357. A separate fabricated 240-row CSV with 20 features and a timestamp also passed the chronological 80/20 split and six-model evaluation. **Neither result is a client-data validation, deployment, paid contract, CI matrix pass, or promise of accuracy.** No datasets or credentials are bundled.
+
+To reproduce in a local virtual environment:
+
+```shell
+python -m pip install numpy pandas "scikit-learn==1.8.0"
+python regression_bid_pilot.py --self-test
+python regression_bid_pilot.py --demo --rows 5000 --output report.json
+python regression_bid_pilot.py --csv authorized-data.csv --target target --output report.json
+# For dated rows with a true timestamp column:
+python regression_bid_pilot.py --csv authorized-data.csv --target target --time-col timestamp
+```
+
+Real project acceptance requires permission to use the dataset, data-definition/target checks, leakage review (including grouped entities), model selection appropriate to the task, and agreed acceptance metrics. This sample is **supplemental** and does not change the evidence-classified primary case-study count.
