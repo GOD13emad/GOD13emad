@@ -44,7 +44,7 @@ For business projects, appropriate early deliverables may include a technical fe
 
 **New Persian service menu with clearly bounded starter prices and payment conditions:** [three introductory paid service packages](PAID_MICROSERVICES_FA.md). These are *test quotes*, not accepted jobs or guarantees of delivery before scope review.
 
-## Small paid engineering pilots — defined deliverables
+**Verified local compute/automation capacity:** [Persian guide to scoped paid batch-processing and engineering compute pilots](COMPUTE_AUTOMATION_SERVICES_FA.md). This is not a public GPU rental endpoint or a confirmed client contract.\n\n## Small paid engineering pilots — defined deliverables
 
 For clients who want to test fit **before** committing to a large project, I can quote one of these deliberately small, independently verifiable work packages:
 
