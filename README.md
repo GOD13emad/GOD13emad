@@ -128,7 +128,7 @@ A **separate, unofficial CEF-based desktop browser shell** for ChatGPT-oriented 
 
 **Appearance Studio** is a Linux/GNOME desktop appearance center with verified Theme Packs, bounded settings changes and transactional rollback. Its project README identifies individual authorship and the **Arclenor Technologies** product brand; organization hosting does not imply joint authorship.
 
-**Current status:** `v0.9.0` **release candidate**, with GNOME 50 live validation still required before stable acceptance. A Windows version is planned, **not shipped**.
+**Current status:** [v0.9.1 RC1](https://github.com/TandemVector-Labs/AppearanceStudio-Core/releases/tag/v0.9.1-rc1-tandemvector) — **published prerelease**, not Stable. GNOME 50 live validation remains open; Windows support is planned, **not shipped**.
 
 [Source, requirements and current limitations](https://github.com/TandemVector-Labs/AppearanceStudio-Core#readme) · [Release history](https://github.com/TandemVector-Labs/AppearanceStudio-Core/releases)
 
