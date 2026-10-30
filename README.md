@@ -8,9 +8,23 @@
 
 # Aliakbar Emadoddin
 
-**Mechanical Engineering PhD researcher** · Dynamics, Vibration & Control · Engineering R&D · Independent Software Development
+<table>
+<tr>
+<td width="152" align="center" valign="middle">
+  <img src="https://avatars.githubusercontent.com/u/94546844?v=4" width="128" alt="Aliakbar Emadoddin — current public GitHub profile avatar">
+</td>
+<td valign="middle">
+  <strong>Mechanical Engineering PhD researcher</strong><br>
+  Dynamics · Vibration &amp; Control · Engineering R&amp;D · Independent Software Development<br><br>
+  Building a bridge between rigorous engineering analysis, reproducible research, and practical developer tools.<br><br>
+  <a href="https://github.com/TandemVector-Labs">TandemVector Labs</a> ·
+  <a href="portfolio/engineering-case-studies/README.md">Engineering work</a> ·
+  <a href="ENGINEERING_SERVICES.md">Collaborate</a>
+</td>
+</tr>
+</table>
 
-My work connects scientific modeling, practical engineering, and tools that help researchers and developers manage complex technical projects. I am interested in vibration analysis, mechanical product development, sensor-related research, reproducible workflows, and responsible uses of AI in engineering.
+My work connects scientific modeling, practical engineering, and tools that help researchers and developers manage complex technical projects. Areas of interest include vibration analysis, mechanical product development, sensor-related research, reproducible workflows, and responsible use of AI in engineering.
 
 **[Evidence matrix / جدول اعتبارسنجی ۲۶ مدخل](portfolio/EVIDENCE_MATRIX.md)** — وضعیت انتشار، آزمایش، مستندات خصوصی و محدودیت مالکیت هر مدخل.
 
