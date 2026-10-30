@@ -21,7 +21,9 @@ Two real, independently verifiable Mendeley Data records list the owner among th
 | Original synthetic algorithm verification | Three-bar MATLAB design study, 9-channel FDD with **MAC≥0.999578** in the synthetic test, LQR with **27/27** parameter-stability checks |
 | Licensed-software runtime probes | Official built-in COMSOL heat-transfer and CFD cases solved to completion; commercial-use rights **not confirmed** |
 
-**No manufactured prototype, real customer contract, independently audited commercial license or field sensor dataset is implied where one is not documented.** The intent is to offer appropriately scoped engineering services based on actual implementation experience, not to overstate completion or client history.
+**No manufactured prototype, real customer contract, independently audited commercial license or field sensor dataset is implied where one is not documented.**
+
+**Additional runnable synthetic Python sample:** [five-model regression comparison, baseline and leakage-aware validation](portfolio/advanced-demos/regression_bid_pilot.py) with [methodology, local test results, and limitations](portfolio/advanced-demos/README.md#supplemental-independent-five-model-regression-evaluation). This is a self-authored demonstration on synthetic data, not a client deliverable, commercial contract or promised accuracy. The intent is to offer appropriately scoped engineering services based on actual implementation experience, not to overstate completion or client history.
 
 ## Industrial projects and senior engineering execution
 
