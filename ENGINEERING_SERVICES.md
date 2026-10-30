@@ -42,6 +42,8 @@ For business projects, appropriate early deliverables may include a technical fe
 
 **Evidence and limitations.** The independent self-authored [MATLAB three-bar truss example](portfolio/matlab-three-bar-truss/README.md) was actually executed in MATLAB R2025b. Its **62.371% mass reduction applies only to a synthetic teaching model** and does not represent a client result or proven global optimum. The installed COMSOL 6.4 environment has executed two official reference cases (1D stationary heat transfer and stationary fluid boundary layer) successfully; those are *vendor examples*, not original portfolio simulations, and **commercial-use license entitlement must be verified** before a paid COMSOL assignment.
 
+**New Persian service menu with clearly bounded starter prices and payment conditions:** [three introductory paid service packages](PAID_MICROSERVICES_FA.md). These are *test quotes*, not accepted jobs or guarantees of delivery before scope review.
+
 ## Small paid engineering pilots — defined deliverables
 
 For clients who want to test fit **before** committing to a large project, I can quote one of these deliberately small, independently verifiable work packages:
