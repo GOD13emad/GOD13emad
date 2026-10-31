@@ -28,7 +28,7 @@ My work connects scientific modeling, practical engineering, and tools that help
 
 ### Doctoral research — verified professional profile
 
-According to my [LinkedIn academic background](https://www.linkedin.com/in/aliakbar-emadoddin-3bb8b5b8/), I am in the **doctoral research phase in mechanical engineering at Iran University of Science and Technology (2024–present)**. My work investigates **graphene-based accelerometers**, connecting molecular dynamics, mechanical vibration, and graphene's electronic behavior to improve sensor design. The research combines computational and experimental approaches and explores structural reinforcement, durability, sensitivity, and scalability.
+My academic background includes **doctoral studies in Mechanical Engineering at Semnan University (since September 2021)**. Separately, my [LinkedIn academic background](https://www.linkedin.com/in/aliakbar-emadoddin-3bb8b5b8/) lists a **Doctoral Research Phase at Iran University of Science and Technology (IUST)**. These are distinct academic entries and neither states that a doctorate has already been awarded. My work investigates **graphene-based accelerometers**, connecting molecular dynamics, mechanical vibration, and graphene's electronic behavior to improve sensor design. The research combines computational and experimental approaches and explores structural reinforcement, durability, sensitivity, and scalability.
 
 My profile also records sensor-manufacturing laboratory supervision at **SADA**, participation in the **Vibration Club**, and a professional connection with **University of Tehran**. These are profile-reported roles and affiliations, not statements that a doctorate has already been awarded or that every GitHub repository is my original work.
 
