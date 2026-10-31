@@ -34,6 +34,36 @@ My profile also records sensor-manufacturing laboratory supervision at **SADA**,
 
 **[Evidence matrix / جدول اعتبارسنجی ۲۶ مدخل](portfolio/EVIDENCE_MATRIX.md)** — وضعیت انتشار، آزمایش، مستندات خصوصی و محدودیت مالکیت هر مدخل.
 
+## Evidence-backed highlights
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+**[Published research data](portfolio/peer-reviewed-and-open-research/README.md)**
+
+Two attributed, publicly deposited automotive driving datasets with permanent DOI references. Research datasets, not journal articles.
+
+</td>
+<td width="34%" valign="top">
+
+**[Reproducible engineering](portfolio/advanced-demos/README.md)**
+
+Inspectable FDD, LQR and TMD demonstrations, plus a [tested MATLAB mechanics example](portfolio/matlab-three-bar-truss/README.md).
+
+</td>
+<td width="33%" valign="top">
+
+**[Released software and tooling](portfolio/software-systems/README.md)**
+
+Original Remote Commander upstream and a separately documented [Appearance Studio Core prerelease](https://github.com/TandemVector-Labs/AppearanceStudio-Core/releases/tag/v0.9.1-rc1-tandemvector).
+
+</td>
+</tr>
+</table>
+
+<sub>Each link distinguishes published evidence, educational demos, prereleases and production-ready software. GitHub Achievements shown by the platform are separate from these project milestones.</sub>
+
 ## Start here
 
 | Research & engineering | Developer systems | Professional collaboration |
