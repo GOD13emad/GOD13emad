@@ -44,3 +44,27 @@ jobs:
         run: python -m unittest discover -s portfolio/advanced-demos/online_congestion_game -p 'test_synthetic_online_congestion_game_demo.py' -v
       - name: Synthetic OpenSees-style recorder plot unit tests
         run: python -m unittest discover -s portfolio/advanced-demos/opensees_recorder_plotting -p 'test_opensees_recorder_plot_demo.py' -v
+
+  
+  opencv-synthetic-inspection:
+    name: Python ${{ matrix.python-version }} / Synthetic OpenCV inspection
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12"]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install isolated OpenCV demo dependencies
+        run: python -m pip install "numpy>=1.24,<3" "opencv-python-headless>=4.10,<5" "pytest>=8,<9"
+      - name: Run synthetic OpenCV unit tests
+        run: python -m pytest -q portfolio/advanced-demos/opencv_inspection/test_synthetic_opencv_inspection_demo.py
+      - name: Generate and reconcile demo artifacts
+        run: |
+          python portfolio/advanced-demos/opencv_inspection/synthetic_opencv_inspection_demo.py --output "$RUNNER_TEMP/opencv-demo-output"
+          python -c "import json, pathlib; p=pathlib.Path('$RUNNER_TEMP/opencv-demo-output/summary.json'); s=json.loads(p.read_text()); assert s['detected_count']==4 and s['class_count_match']; print(s['detected_by_class'])"

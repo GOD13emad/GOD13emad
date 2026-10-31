@@ -125,3 +125,14 @@ python regression_bid_pilot.py --csv authorized-data.csv --target target --time-
 ```
 
 Real project acceptance requires permission to use the dataset, data-definition/target checks, leakage review (including grouped entities), model selection appropriate to the task, and agreed acceptance metrics. This sample is **supplemental** and does not change the evidence-classified primary case-study count.
+
+ 
+## Supplemental classical OpenCV image-inspection baseline
+
+[Runnable source](opencv_inspection/synthetic_opencv_inspection_demo.py) · [Unit tests](opencv_inspection/test_synthetic_opencv_inspection_demo.py) · [Method and reproduction notes](opencv_inspection/README.md).
+
+This independent **classical computer-vision** demonstration creates a deterministic 640×480 synthetic scene containing two circles and two rectangles. It adds controlled noise/blur, performs HSV colour segmentation, morphological opening/closing, contour extraction and geometry-based classification using area, circularity, bounding-box aspect ratio and rectangularity. It exports an annotated image, binary mask, CSV detections and a JSON summary.
+
+**Local Windows evidence (31 October 2026):** all **4 dedicated OpenCV tests passed**; the full existing local Python portfolio folder regression suite passed **17/17**. The generated report reconciled all four objects and class counts (2 circles / 2 rectangles). A visual review of the annotated output was completed. A separate GitHub Actions matrix job runs this example on Python 3.11 and 3.12; its result is not implied until the workflow completes.
+
+**Limits:** this is a controlled synthetic baseline, not a trained or pretrained AI/deep-learning model, not a customer project, not a field-image result and not proof of production accuracy or latency. Real work requires authorized representative images, agreed labels/ground truth, environment/camera details, independent test data, a buyer-approved metric and written acceptance criteria. This supplemental demo does not change the 26 primary evidence-classified case-study count.
