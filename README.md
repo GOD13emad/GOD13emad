@@ -39,25 +39,16 @@ My profile also records sensor-manufacturing laboratory supervision at **SADA**,
 <table>
 <tr>
 <td width="33%" valign="top">
-
-**[Published research data](portfolio/peer-reviewed-and-open-research/README.md)**
-
-Two attributed, publicly deposited automotive driving datasets with permanent DOI references. Research datasets, not journal articles.
-
+<p><strong><a href="portfolio/peer-reviewed-and-open-research/README.md">Published research data</a></strong></p>
+<p>Two attributed, publicly deposited automotive driving datasets with permanent DOI references. Research datasets, not journal articles.</p>
 </td>
 <td width="34%" valign="top">
-
-**[Reproducible engineering](portfolio/advanced-demos/README.md)**
-
-Inspectable FDD, LQR and TMD demonstrations, plus a [tested MATLAB mechanics example](portfolio/matlab-three-bar-truss/README.md).
-
+<p><strong><a href="portfolio/advanced-demos/README.md">Reproducible engineering</a></strong></p>
+<p>Inspectable FDD, LQR and TMD demonstrations, plus a <a href="portfolio/matlab-three-bar-truss/README.md">tested MATLAB mechanics example</a>.</p>
 </td>
 <td width="33%" valign="top">
-
-**[Released software and tooling](portfolio/software-systems/README.md)**
-
-Original Remote Commander upstream and a separately documented [Appearance Studio Core prerelease](https://github.com/TandemVector-Labs/AppearanceStudio-Core/releases/tag/v0.9.1-rc1-tandemvector).
-
+<p><strong><a href="portfolio/software-systems/README.md">Released software and tooling</a></strong></p>
+<p>Original Remote Commander upstream and a separately documented <a href="https://github.com/TandemVector-Labs/AppearanceStudio-Core/releases/tag/v0.9.1-rc1-tandemvector">Appearance Studio Core prerelease</a>.</p>
 </td>
 </tr>
 </table>
