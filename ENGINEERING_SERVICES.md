@@ -10,7 +10,7 @@ Two real, independently verifiable Mendeley Data records list the owner among th
 
 ## Selected verified engineering breadth
 
-**[Complete 27-entry engineering and software portfolio](PORTFOLIO.md)** — detailed [electromechanical/CAD/OMA case studies](portfolio/engineering-case-studies/README.md), [six genuine software repositories](portfolio/software-systems/README.md), and [independent tested algorithms with illustrated FDD/LQR results](portfolio/advanced-demos/README.md). This experience spans electromagnetic design, native SolidWorks automation, signal processing, vibration/control, finite-element validation, multi-platform application architecture, secure remote tools and software release QA.
+**[Complete 26-entry engineering and software portfolio](PORTFOLIO.md)** — detailed [electromechanical/CAD/OMA case studies](portfolio/engineering-case-studies/README.md), [six genuine software repositories](portfolio/software-systems/README.md), and [independent tested algorithms with illustrated FDD/LQR results](portfolio/advanced-demos/README.md). This experience spans electromagnetic design, native SolidWorks automation, signal processing, vibration/control, finite-element validation, multi-platform application architecture, secure remote tools and software release QA.
 
 | Selected quantitative evidence | What was actually verified |
 |---|---|
