@@ -74,9 +74,9 @@ My profile also records sensor-manufacturing laboratory supervision at **SADA**,
   Original upstream · Permission-controlled workflows and execution evidence · <a href="https://github.com/GOD13emad/ChatGPTRemoteCommander/blob/main/START_HERE.md">Installation and release scope</a>
 </td>
 <td width="50%" valign="top">
-  <a href="https://github.com/TandemVector-Labs/remote-commander-browser"><img src="assets/projects/RemoteCommanderBrowser-hero-20261030.png" alt="Remote Commander Browser — independent CEF browser shell" width="100%"></a>
-  <strong><a href="https://github.com/TandemVector-Labs/remote-commander-browser">Remote Commander Browser</a></strong><br>
-  Separate CEF/RTL desktop project · Candidate-stage software · <a href="https://github.com/TandemVector-Labs/remote-commander-browser#readme">Current limitations</a>
+  <a href="https://github.com/GOD13emad/remote-commander-browser"><img src="assets/projects/RemoteCommanderBrowser-hero-20261030.png" alt="Remote Commander Browser — independent CEF browser shell" width="100%"></a>
+  <strong><a href="https://github.com/GOD13emad/remote-commander-browser">Remote Commander Browser</a></strong><br>
+  Separate CEF/RTL desktop project · Candidate-stage software · <a href="https://github.com/GOD13emad/remote-commander-browser#readme">Current limitations</a>
 </td>
 </tr>
 </table>
@@ -137,13 +137,13 @@ A cross-platform **Windows/Linux MCP server** that lets authorized owners intera
 
 [Installation and current capabilities](https://github.com/GOD13emad/ChatGPTRemoteCommander/blob/main/START_HERE.md) · [Share a real use case or feedback](https://github.com/GOD13emad/ChatGPTRemoteCommander/issues/154)
 
-### [Remote Commander Browser](https://github.com/TandemVector-Labs/remote-commander-browser)
+### [Remote Commander Browser](https://github.com/GOD13emad/remote-commander-browser)
 
 A **separate, unofficial CEF-based desktop browser shell** for ChatGPT-oriented workflows, with native tabs, Persian/Arabic RTL support, and carefully scoped permissions. The current repository documents **candidate-stage software**, not a universally qualified stable product. It is **not** the Remote Commander MCP server.
 
 **For:** Linux desktop users, CEF developers, UI/UX testers, and people evaluating dedicated multilingual ChatGPT browser interfaces.
 
-[Current build and status](https://github.com/TandemVector-Labs/remote-commander-browser#readme) · [Share focused browser feedback](https://github.com/TandemVector-Labs/remote-commander-browser/issues/78)
+[Current build and status](https://github.com/GOD13emad/remote-commander-browser#readme) · [Share focused browser feedback](https://github.com/GOD13emad/remote-commander-browser/issues/78)
 
 ### [Appearance Studio Core](https://github.com/GOD13emad/AppearanceStudio-Core)
 
@@ -160,7 +160,7 @@ A **separate, unofficial CEF-based desktop browser shell** for ChatGPT-oriented 
 | Your interest | Best starting point |
 | --- | --- |
 | Controlling an authorized Windows/Linux machine or technical workflow from ChatGPT | [Remote Commander](https://github.com/GOD13emad/ChatGPTRemoteCommander/issues/154) |
-| Desktop browser shell, CEF, tabs, RTL, clipboard, or UI testing | [Remote Commander Browser](https://github.com/TandemVector-Labs/remote-commander-browser/issues/78) |
+| Desktop browser shell, CEF, tabs, RTL, clipboard, or UI testing | [Remote Commander Browser](https://github.com/GOD13emad/remote-commander-browser/issues/78) |
 | GNOME desktop appearance, Theme Packs and reversible Linux customization | [Appearance Studio Core](https://github.com/GOD13emad/AppearanceStudio-Core) |
 | Mechanical engineering, dynamics/vibrations, sensors, and R&D collaboration | [LinkedIn](https://www.linkedin.com/in/aliakbar-emadoddin-3bb8b5b8/) |
 
