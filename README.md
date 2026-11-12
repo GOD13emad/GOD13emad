@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://github.com/TandemVector-Labs">TandemVector Labs</a> &nbsp;·&nbsp;
   <a href="https://github.com/mohammadmohammadzadeh19960-code">Co-steward: MMZ</a> &nbsp;·&nbsp;
-  <a href="https://github.com/TandemVector-Labs/.github/blob/main/PROJECT_CATALOG.md">Project directory</a>
+  <a href="https://github.com/GOD13emad/ChatGPTRemoteCommander/issues/475">Repository ownership</a>
 </p>
 
 # Aliakbar Emadoddin
