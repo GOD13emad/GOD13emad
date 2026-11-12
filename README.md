@@ -48,7 +48,7 @@ My profile also records sensor-manufacturing laboratory supervision at **SADA**,
 </td>
 <td width="33%" valign="top">
 <p><strong><a href="portfolio/software-systems/README.md">Released software and tooling</a></strong></p>
-<p>Original Remote Commander upstream and a separately documented <a href="https://github.com/TandemVector-Labs/AppearanceStudio-Core/releases/tag/v0.9.1-rc1-tandemvector">Appearance Studio Core prerelease</a>.</p>
+<p>Original Remote Commander upstream and a separately documented <a href="https://github.com/GOD13emad/AppearanceStudio-Core/releases/tag/v0.9.1-rc1-tandemvector">Appearance Studio Core prerelease</a>.</p>
 </td>
 </tr>
 </table>
@@ -145,13 +145,13 @@ A **separate, unofficial CEF-based desktop browser shell** for ChatGPT-oriented 
 
 [Current build and status](https://github.com/TandemVector-Labs/remote-commander-browser#readme) · [Share focused browser feedback](https://github.com/TandemVector-Labs/remote-commander-browser/issues/78)
 
-### [Appearance Studio Core](https://github.com/TandemVector-Labs/AppearanceStudio-Core)
+### [Appearance Studio Core](https://github.com/GOD13emad/AppearanceStudio-Core)
 
 **Appearance Studio** is a Linux/GNOME desktop appearance center with verified Theme Packs, bounded settings changes and transactional rollback. Its project README identifies individual authorship and the **Arclenor Technologies** product brand; organization hosting does not imply joint authorship.
 
-**Current status:** [v0.9.1 RC1](https://github.com/TandemVector-Labs/AppearanceStudio-Core/releases/tag/v0.9.1-rc1-tandemvector) — **published prerelease**, not Stable. GNOME 50 live validation remains open; Windows support is planned, **not shipped**.
+**Current status:** [v0.9.1 RC1](https://github.com/GOD13emad/AppearanceStudio-Core/releases/tag/v0.9.1-rc1-tandemvector) — **published prerelease**, not Stable. GNOME 50 live validation remains open; Windows support is planned, **not shipped**.
 
-[Source, requirements and current limitations](https://github.com/TandemVector-Labs/AppearanceStudio-Core#readme) · [Release history](https://github.com/TandemVector-Labs/AppearanceStudio-Core/releases)
+[Source, requirements and current limitations](https://github.com/GOD13emad/AppearanceStudio-Core#readme) · [Release history](https://github.com/GOD13emad/AppearanceStudio-Core/releases)
 
 > **Independent work:** Neither ChatGPT Remote Commander nor Remote Commander Browser is an official OpenAI application or endorsed by OpenAI. Appearance Studio follows its own platform and release policy. University roles and research activity do not imply institutional endorsement of these software projects.
 
@@ -161,7 +161,7 @@ A **separate, unofficial CEF-based desktop browser shell** for ChatGPT-oriented 
 | --- | --- |
 | Controlling an authorized Windows/Linux machine or technical workflow from ChatGPT | [Remote Commander](https://github.com/GOD13emad/ChatGPTRemoteCommander/issues/154) |
 | Desktop browser shell, CEF, tabs, RTL, clipboard, or UI testing | [Remote Commander Browser](https://github.com/TandemVector-Labs/remote-commander-browser/issues/78) |
-| GNOME desktop appearance, Theme Packs and reversible Linux customization | [Appearance Studio Core](https://github.com/TandemVector-Labs/AppearanceStudio-Core) |
+| GNOME desktop appearance, Theme Packs and reversible Linux customization | [Appearance Studio Core](https://github.com/GOD13emad/AppearanceStudio-Core) |
 | Mechanical engineering, dynamics/vibrations, sensors, and R&D collaboration | [LinkedIn](https://www.linkedin.com/in/aliakbar-emadoddin-3bb8b5b8/) |
 
 ## درباره من
