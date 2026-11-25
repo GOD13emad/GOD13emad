@@ -170,7 +170,7 @@ A **separate, unofficial CEF-based desktop browser shell** for ChatGPT-oriented 
 
 - **Remote Commander:** ارتباط کنترل‌شده ChatGPT با رایانه و پروژه‌های فنی از طریق MCP.
 - **Remote Commander Browser:** پوسته مرورگر مستقل مبتنی بر CEF، با پشتیبانی فارسی/RTL، در مرحله توسعه و آزمایش.
-- **Appearance Studio Core:** نرم‌افزار مستقل تنظیم ظاهر GNOME؛ نسخهٔ Linux 0.9.0 در مرحلهٔ Release Candidate است و نسخهٔ Windows هنوز منتشر نشده است.
+- **Appearance Studio Core:** نرم‌افزار مستقل تنظیم ظاهر GNOME؛ [نسخهٔ v0.9.1 RC1](https://github.com/GOD13emad/AppearanceStudio-Core/releases/tag/v0.9.1-rc1-tandemvector) به‌صورت پیش‌انتشار منتشر شده است؛ اعتبارسنجی GNOME 50 هنوز باز است و نسخهٔ Windows هنوز به‌عنوان نسخهٔ پایدار عرضه نشده است.
 - **همکاری پژوهشی:** [پروفایل حرفه‌ای LinkedIn](https://www.linkedin.com/in/aliakbar-emadoddin-3bb8b5b8/).
 
 برای هر موضوع، لطفاً از مسیر مرتبط با همان موضوع استفاده کنید.
