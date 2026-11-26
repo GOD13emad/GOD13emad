@@ -59,6 +59,13 @@ This is a **selected multidisciplinary portfolio**, not a one-page list of softw
 
 **Important distinction:** All four demonstrations were self-authored and executed with tests, but use **synthetic teaching models**. They do not represent real customer contracts, field sensor data, universal best performance, physically built actuators or global optimization proofs.
 
+## Supplemental classical computer-vision sample — OpenCV
+
+A separate, reproducible [OpenCV synthetic image-inspection baseline](portfolio/advanced-demos/opencv_inspection/README.md) demonstrates HSV segmentation, morphological cleanup, contour geometry and shape classification. It detects **2 synthetic circles and 2 synthetic rectangles** and exports an annotated image, mask, CSV and JSON report. The dedicated four-test suite and full local Python folder regression (**17/17**) passed on the owner's Windows host on 31 October 2026.
+
+This is a small **classical OpenCV** demonstration only: no pretrained model, no trained deep-learning model, no client images, no real-world accuracy claim and no accepted customer contract. It is supplemental and does not change the count of **26** evidence-classified primary workstreams.
+
+
 ## Publicly deposited research data — two verified DOI records
 
 An independent search of the publisher identified a **collaborative driving-cycle data research program** containing two published, DOI-bearing datasets with the owner's name in the contributor list:
