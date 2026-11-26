@@ -45,7 +45,6 @@ jobs:
       - name: Synthetic OpenSees-style recorder plot unit tests
         run: python -m unittest discover -s portfolio/advanced-demos/opensees_recorder_plotting -p 'test_opensees_recorder_plot_demo.py' -v
 
-  
   opencv-synthetic-inspection:
     name: Python ${{ matrix.python-version }} / Synthetic OpenCV inspection
     runs-on: ubuntu-latest
