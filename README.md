@@ -76,7 +76,7 @@ My profile also records sensor-manufacturing laboratory supervision at **SADA**,
 <td width="50%" valign="top">
   <a href="https://github.com/GOD13emad/remote-commander-browser"><img src="assets/projects/RemoteCommanderBrowser-hero-20261030.png" alt="Remote Commander Browser — independent CEF browser shell" width="100%"></a>
   <strong><a href="https://github.com/GOD13emad/remote-commander-browser">Remote Commander Browser</a></strong><br>
-  Separate CEF/RTL desktop project · Candidate-stage software · <a href="https://github.com/GOD13emad/remote-commander-browser#readme">Current limitations</a>
+  Separate CEF/RTL desktop project · <a href="https://github.com/GOD13emad/remote-commander-browser/releases/tag/v0.8.1">Published Stable v0.8.1</a> · Development candidates · <a href="https://github.com/GOD13emad/remote-commander-browser#readme">Current limitations</a>
 </td>
 </tr>
 </table>
@@ -139,7 +139,7 @@ A cross-platform **Windows/Linux MCP server** that lets authorized owners intera
 
 ### [Remote Commander Browser](https://github.com/GOD13emad/remote-commander-browser)
 
-A **separate, unofficial CEF-based desktop browser shell** for ChatGPT-oriented workflows, with native tabs, Persian/Arabic RTL support, and carefully scoped permissions. The current repository documents **candidate-stage software**, not a universally qualified stable product. It is **not** the Remote Commander MCP server.
+A **separate, unofficial CEF-based desktop browser shell** for ChatGPT-oriented workflows, with native tabs, Persian/Arabic RTL support, and carefully scoped permissions. The repository has a published [Stable v0.8.1](https://github.com/GOD13emad/remote-commander-browser/releases/tag/v0.8.1); development builds and [v0.8.3-rc.3](https://github.com/GOD13emad/remote-commander-browser/releases/tag/v0.8.3-rc.3) remain candidates, not universally qualified releases. It is **not** the Remote Commander MCP server.
 
 **For:** Linux desktop users, CEF developers, UI/UX testers, and people evaluating dedicated multilingual ChatGPT browser interfaces.
 
@@ -169,7 +169,7 @@ A **separate, unofficial CEF-based desktop browser shell** for ChatGPT-oriented 
 **علی‌اکبر عمادالدین**، پژوهشگر دوره دکتری مهندسی مکانیک با تمرکز بر **دینامیک، ارتعاشات و کنترل** هستم و در زمینه تحقیق‌وتوسعه محصول و ابزارهای نرم‌افزاری مهندسی فعالیت می‌کنم.
 
 - **Remote Commander:** ارتباط کنترل‌شده ChatGPT با رایانه و پروژه‌های فنی از طریق MCP.
-- **Remote Commander Browser:** پوسته مرورگر مستقل مبتنی بر CEF، با پشتیبانی فارسی/RTL، در مرحله توسعه و آزمایش.
+- **Remote Commander Browser:** پوسته مرورگر مستقل مبتنی بر CEF، با پشتیبانی فارسی/RTL؛ نسخه Stable منتشرشده v0.8.1 و نسخه‌های توسعه‌ای آزمایشی.
 - **Appearance Studio Core:** نرم‌افزار مستقل تنظیم ظاهر GNOME؛ [نسخهٔ v0.9.1 RC1](https://github.com/GOD13emad/AppearanceStudio-Core/releases/tag/v0.9.1-rc1-tandemvector) به‌صورت پیش‌انتشار منتشر شده است؛ اعتبارسنجی GNOME 50 هنوز باز است و نسخهٔ Windows هنوز به‌عنوان نسخهٔ پایدار عرضه نشده است.
 - **همکاری پژوهشی:** [پروفایل حرفه‌ای LinkedIn](https://www.linkedin.com/in/aliakbar-emadoddin-3bb8b5b8/).
 
