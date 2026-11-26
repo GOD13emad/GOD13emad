@@ -44,7 +44,7 @@ My profile also records sensor-manufacturing laboratory supervision at **SADA**,
 </td>
 <td width="34%" valign="top">
 <p><strong><a href="portfolio/advanced-demos/README.md">Reproducible engineering</a></strong></p>
-<p>Inspectable FDD, LQR and TMD demonstrations, plus a <a href="portfolio/matlab-three-bar-truss/README.md">tested MATLAB mechanics example</a>.</p>
+<p>Inspectable FDD, LQR and TMD demonstrations; a <a href="portfolio/advanced-demos/opencv_inspection/README.md">synthetic OpenCV image-inspection sample</a>; and a <a href="portfolio/matlab-three-bar-truss/README.md">tested MATLAB mechanics example</a>.</p>
 </td>
 <td width="33%" valign="top">
 <p><strong><a href="portfolio/software-systems/README.md">Released software and tooling</a></strong></p>
