@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Report a security vulnerability privately
+    url: https://github.com/GOD13emad/GOD13emad/security/advisories/new
+    about: Use the confidential form for this profile repository. Do not post vulnerability details publicly.
+  - name: Find the relevant product repository
+    url: https://github.com/TandemVector-Labs/.github/blob/main/PROJECT_CATALOG.md
+    about: Product-specific bug reports belong in the corresponding upstream repository.
