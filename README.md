@@ -149,7 +149,7 @@ A **separate, unofficial CEF-based desktop browser shell** for ChatGPT-oriented 
 
 **Appearance Studio** is a Linux/GNOME desktop appearance center with verified Theme Packs, bounded settings changes and transactional rollback. Its project README identifies individual authorship and the **Arclenor Technologies** product brand; organization hosting does not imply joint authorship.
 
-**Current status:** [v0.9.1 RC1](https://github.com/GOD13emad/AppearanceStudio-Core/releases/tag/v0.9.1-rc1-tandemvector) — **published prerelease**, not Stable. GNOME 50 live validation remains open; Windows support is planned, **not shipped**.
+**Current status:** [v0.9.1 RC1](https://github.com/GOD13emad/AppearanceStudio-Core/releases/tag/v0.9.1-rc1-tandemvector) — **published prerelease**, not Stable. GNOME 50 live validation remains open. Separate unsigned Normal previews are published for [Windows 0.13.4](https://github.com/GOD13emad/AppearanceStudio-Core/releases/tag/windows-normal-0.13.4-live-status-2026.11.05-unsigned) and [KDE Plasma 6 0.1.8](https://github.com/GOD13emad/AppearanceStudio-Core/releases/tag/kde-normal-2026.11.05-018-unsigned); neither is Stable, Ultimate or a production-acceptance claim.
 
 [Source, requirements and current limitations](https://github.com/GOD13emad/AppearanceStudio-Core#readme) · [Release history](https://github.com/GOD13emad/AppearanceStudio-Core/releases)
 
@@ -170,7 +170,7 @@ A **separate, unofficial CEF-based desktop browser shell** for ChatGPT-oriented 
 
 - **Remote Commander:** ارتباط کنترل‌شده ChatGPT با رایانه و پروژه‌های فنی از طریق MCP.
 - **Remote Commander Browser:** پوسته مرورگر مستقل مبتنی بر CEF، با پشتیبانی فارسی/RTL؛ نسخه Stable منتشرشده v0.8.1 و نسخه‌های توسعه‌ای آزمایشی.
-- **Appearance Studio Core:** نرم‌افزار مستقل تنظیم ظاهر GNOME؛ [نسخهٔ v0.9.1 RC1](https://github.com/GOD13emad/AppearanceStudio-Core/releases/tag/v0.9.1-rc1-tandemvector) به‌صورت پیش‌انتشار منتشر شده است؛ اعتبارسنجی GNOME 50 هنوز باز است و نسخهٔ Windows هنوز به‌عنوان نسخهٔ پایدار عرضه نشده است.
+- **Appearance Studio Core:** نرم‌افزار مستقل تنظیم ظاهر GNOME؛ [نسخهٔ v0.9.1 RC1](https://github.com/GOD13emad/AppearanceStudio-Core/releases/tag/v0.9.1-rc1-tandemvector) به‌صورت پیش‌انتشار منتشر شده است؛ اعتبارسنجی GNOME 50 هنوز باز است. پیش‌انتشارهای جداگانه و بدون امضای [Windows Normal 0.13.4](https://github.com/GOD13emad/AppearanceStudio-Core/releases/tag/windows-normal-0.13.4-live-status-2026.11.05-unsigned) و [KDE Plasma 6 Normal 0.1.8](https://github.com/GOD13emad/AppearanceStudio-Core/releases/tag/kde-normal-2026.11.05-018-unsigned) منتشر شده‌اند؛ هیچ‌کدام نسخهٔ Stable یا پذیرش عملیاتی نهایی نیستند.
 - **همکاری پژوهشی:** [پروفایل حرفه‌ای LinkedIn](https://www.linkedin.com/in/aliakbar-emadoddin-3bb8b5b8/).
 
 برای هر موضوع، لطفاً از مسیر مرتبط با همان موضوع استفاده کنید.
