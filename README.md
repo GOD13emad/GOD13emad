@@ -19,14 +19,15 @@
   Building a bridge between rigorous engineering analysis, reproducible research, and practical developer tools.<br><br>
   <a href="https://github.com/TandemVector-Labs">TandemVector Labs</a> ·
   <a href="portfolio/engineering-case-studies/README.md">Engineering work</a> ·
-  <a href="ENGINEERING_SERVICES.md">Collaborate</a>
+  <a href="ENGINEERING_SERVICES.md">Collaborate</a> ·
+  <a href="SECURITY.md">Security reporting</a>
 </td>
 </tr>
 </table>
 
 My work connects scientific modeling, practical engineering, and tools that help researchers and developers manage complex technical projects. Areas of interest include vibration analysis, mechanical product development, sensor-related research, reproducible workflows, and responsible use of AI in engineering.
 
-### Doctoral research — verified professional profile
+## Doctoral research — verified professional profile
 
 My academic background includes **doctoral studies in Mechanical Engineering at Semnan University (since September 2021)**. Separately, my [LinkedIn academic background](https://www.linkedin.com/in/aliakbar-emadoddin-3bb8b5b8/) lists a **Doctoral Research Phase at Iran University of Science and Technology (IUST)**. These are distinct academic entries and neither states that a doctorate has already been awarded. My work investigates **graphene-based accelerometers**, connecting molecular dynamics, mechanical vibration, and graphene's electronic behavior to improve sensor design. The research combines computational and experimental approaches and explores structural reinforcement, durability, sensitivity, and scalability.
 
